@@ -99,3 +99,12 @@ body {
 .primaryLight{
   background-color: #5771EE;
 }
+.subPink{
+  background-color: #FB6C6C;
+}
+
+/* footer */
+ footer{
+   background-color: #333;
+   padding: 40px 0;
+ }
