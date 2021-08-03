@@ -1,0 +1,101 @@
+/* Design System */
+body {
+  font-size: 16px;
+}
+/* Typography */
+.nanumsquareH1Regular {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 800;
+  font-size: 3rem; /* 48px */
+  line-height: 7rem; /* 112px */
+  letter-spacing: -0.09rem;
+}
+
+.nanumsquareH2Light {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 2.25rem; /* 36px */
+  line-height: 4.5rem; /* 72px */
+  letter-spacing: -0.03rem;
+}
+
+.nanumsquareH3 {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 2.13rem; /* 34px */
+  line-height: 2.25rem; /* 36px */
+}
+
+.nanumsquareH4 {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 1.88rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+
+.nanumsquareH5Regular {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2.13rem; /* 34px */
+  letter-spacing: 0.01rem; /* 0.18px */
+}
+
+.nanumsquareH6Medium {
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.01rem; /* 0.15px */
+}
+
+.nanumsquareSubtitle1Regular{
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.01rem; /* 0.15px */
+}
+
+.nanumsquareSubtitle2Medium{
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 700;
+  font-size: 0.88rem; /* 14px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.01rem; /* 0.1px */
+}
+
+.nanumsquareBody1{
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 400;
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  letter-spacing: 0.01rem; /* 0.1px */
+}
+
+.nanumsquareBody1{
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 400;
+  font-size: 0.88rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  letter-spacing: 0.02rem; /* 0.1px */
+}
+
+.nanumsquareBody1{
+  font-family: "NanumSquare", sans-serif !important;
+  font-weight: 400;
+  font-size: 0.75rem; /* 12px */
+  line-height: 0.75rem; /* 12px */
+  letter-spacing: 0.03rem; /* 0.4px */
+}
+
+/* Color */
+.primaryMain{
+  background-color: #3D4FA6;
+}
+.primaryDark{
+  background-color: #2B3877;
+}
+.primaryLight{
+  background-color: #5771EE;
+}
