@@ -90,17 +90,37 @@ body {
 }
 
 /* Color */
-.primaryMain{
+.primaryMainBg{
   background-color: #3D4FA6;
 }
-.primaryDark{
+.primaryDarkBg{
   background-color: #2B3877;
 }
-.primaryLight{
+.primaryLightBg{
   background-color: #5771EE;
 }
-.subPink{
+.subPinkBg{
   background-color: #FB6C6C;
+}
+
+.primaryMain{
+  color: #3D4FA6;
+}
+.primaryDark{
+  color: #2B3877;
+}
+.primaryLight{
+  color: #5771EE;
+}
+.subPink{
+  color: #FB6C6C;
+}
+
+/* header */
+header{
+  background-color: aquamarine;
+  width: 100%;
+  height: 70px;
 }
 
 /* footer */

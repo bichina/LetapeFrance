@@ -1,0 +1,24 @@
+/* 서브페이지 공통 */
+.subPageTitle{
+    padding-left: 20px;
+}
+.subTitle{
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+.subTitleTop{
+    position: relative;
+}
+.subTitleCircle{
+    position: absolute;
+    bottom: 6px;
+    padding-left: 2px;
+}
+
+@media screen and (max-width:599px) {
+    /* 모바일 세로 */
+    .teachersImg{
+        width: 100%;
+        height: auto;
+    }
+}
