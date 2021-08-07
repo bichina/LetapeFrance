@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (document.querySelector(".menuwrap").classList.contains("on")) {
       //메뉴닫힘
       document.querySelector(".menuwrap").classList.remove("on");
-      document.querySelector(".mobileMenu img").classList.remove("fa-times");
+      document.querySelector(".mobileMenu img").classList.remove("closeIcon");
       document.querySelector(".mobileMenu img").classList.add("panelIcon");
 
       //페이지 스크롤 락 해제
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       //메뉴펼침
       document.querySelector(".menuwrap").classList.add("on");
       document.querySelector(".mobileMenu img").classList.remove("panelIcon");
-      document.querySelector(".mobileMenu img").classList.add("fa-times");
+      document.querySelector(".mobileMenu img").classList.add("closeIcon");
 
       //페이지 스크롤 락 레이어 추가
       let div = document.createElement("div");
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       //페이지 스크롤 락 레이어 클릭 메뉴 닫기
       document.querySelector("#dimmed").addEventListener("click", function (e) {
-        document.querySelector("..mobileMenu").click();
+        document.querySelector("..mobileMenu1").click();
       });
     }
   });

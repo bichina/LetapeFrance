@@ -55,7 +55,7 @@ body {
   font-weight: 700;
   font-size: 1rem; /* 16px */
   line-height: 1.5rem; /* 24px */
-  letter-spacing: 0.01rem; /* 0.15px */
+  letter-spacing: -0.01rem; /* 0.15px */
   transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
 }
 
@@ -81,7 +81,7 @@ body {
   font-weight: 400;
   font-size: 0.88rem; /* 14px */
   line-height: 1.25rem; /* 20px */
-  letter-spacing: 0.02rem; /* 0.1px */
+  letter-spacing: -0.02rem; /* 0.1px */
   transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
 }
 
@@ -127,6 +127,9 @@ body {
 }
 .disabled_onLight {
   color: rgba(0, 0, 0, 0.38);
+}
+.surface_white {
+  color: #fff;
 }
 /* header */
 header {
@@ -175,9 +178,26 @@ header {
 /* footer */
 footer {
   background-color: #333;
-  padding: 40px 0;
+  padding: 40px 50px;
+  box-sizing: border-box;
 }
-
+footer .footerLogo {
+  display: block;
+  margin: 0 auto;
+}
+footer .footerSnsWrap {
+  text-align: center;
+  padding: 30px 0;
+}
+footer .footerSnsWrap a {
+  padding: 0 5px;
+}
+.footerLine {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin: 20px 0;
+}
 /*  */
 .contentsWrap {
   width: 100%;
