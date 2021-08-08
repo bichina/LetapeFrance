@@ -87,10 +87,11 @@ body {
 
 .nanumsquareCaption {
   font-family: "NanumSquare", sans-serif !important;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.75rem; /* 12px */
   line-height: 0.75rem; /* 12px */
   letter-spacing: 0.03rem; /* 0.4px */
+  transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
 }
 
 /* Color */
@@ -134,46 +135,24 @@ body {
 /* header */
 header {
   background-color: aquamarine;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 70px;
 }
-.mobileMenu {
-  display: block;
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  z-index: 500;
-  width: 45px;
-  height: 45px;
-  padding: 5px;
-  background-color: #f0f0f0;
-  border: 0;
+header .mobileMenu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 1;
 }
-
-.menuwrap {
-  position: fixed;
-  top: 0;
-  left: -300px; /* 너비 300px 인 사이드바를 왼쪽으로 300px 이동시켜 화면에 보이지 않게 함 */
-  z-index: 400;
-  overflow: auto;
-  width: 300px; /* 너비 */
-  height: 100%;
-  padding: 50px 20px;
-  box-sizing: border-box;
-  transition: left 0.3s ease-in-out; /* 0.3초 동안 이동 애니메이션 */
-  background-color: #f0f0f0;
-}
-.menuwrap.on {
-  left: 0;
-}
-#dimmed {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 300;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+.menuwrap { /* 메뉴부분 임시로 안보이게 해둠 */
+  display: none;
 }
 /* footer */
 footer {

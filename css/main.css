@@ -8,6 +8,14 @@
 @media screen and (max-width:899px) {
     /* 모바일 가로, 타블렛 세로 */
     }
-@media screen and (max-width:599px) {
-    /* 모바일 세로 */
+@media screen and (max-width:599px) {/* 모바일 세로 */
+    
+    .mainTopLogo {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
     }
+    .mainTopBanner{
+        background-image: url(../images/main/lf_main_Khaina_img.png);
+    }
+}

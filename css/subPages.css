@@ -145,4 +145,119 @@
   .classWrap {
     padding-top: 40px;
   }
+  .classInfoListWrap{
+    width: 100%;
+    height: 120px;
+  }
+  .classInfoList {
+    float: left;
+    list-style: none;
+    width: 25%;
+    padding: 25px 0;
+    text-align: center;
+    background-image: url(../images/subPages/lf_subPages_class_classInfo_line.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .classInfoList:first-child {
+    background-image: none;
+  }
+  .classInfoList img {
+    width: 25px;
+    height: 25px;
+    padding-bottom: 8px;
+  }
+  .classBanner {
+    display: block;
+    width: 280px;
+    padding: 35px 0;
+    margin: 0 auto;
+  }
+  .classBannerImg {
+    width: 20%;
+    float: right;
+  }
+  .BannerText {
+    display: inline-block;
+  }
+  .classAdvantages {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .classAdvantagesList {
+    list-style: none;
+    border-radius: 10px;
+    height: 60px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .classAdvantagesList ul {
+    display: flex;
+    align-items: center;
+  }
+  .classAdvantagesList ul li {
+    list-style: none;
+    float: left;
+  }
+  .classOffer {
+    padding: 30px 20px;
+  }
+  .classOffer .classOfferListWrap {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .classOffer .classOfferListWrap .classOfferList {
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  }
+  .classOfferList div {
+    float: left;
+  }
+  .offerHashtagWrap {
+    padding-top: 40px;
+  }
+  .offerHashtagWrap div {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.12);
+    margin: 10px 5px 0 0;
+  }
+  .recommendWrap {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .recommendTitle {
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+  }
+  .recommendContents {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 1px solid #fb6c6c;
+  }
+  .anotherPageWrap {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .anotherPageBtn {
+    padding: 13px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: 1px solid #3D4FA6;
+  }
 }
