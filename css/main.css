@@ -9,13 +9,38 @@
     /* 모바일 가로, 타블렛 세로 */
     }
 @media screen and (max-width:599px) {/* 모바일 세로 */
-    
+
     .mainTopLogo {
         display: block;
         margin: 0 auto;
-        padding: 10px;
+        padding-top: 54px;
     }
     .mainTopBanner{
-        background-image: url(../images/main/lf_main_Khaina_img.png);
+        width: 100%;
+        height: 645px;
+        background-image: url(../images/main/lf_main_Khaina_img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .mainTopText {
+        width: 100%;
+        padding: 0 20px;
+        padding-top: 120px;
+    }
+    .mainTopTitle {
+        width: 230px;
+    }
+    .mainBlueBox{
+        mix-blend-mode: multiply;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+    .mainBlueBox p {
+        padding-top: 24px;
     }
 }

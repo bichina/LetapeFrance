@@ -134,26 +134,57 @@ body {
 }
 /* header */
 header {
-  background-color: aquamarine;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
-  height: 70px;
+  height: 114px;
+  z-index: 2;
 }
 header .mobileMenu {
   position: absolute;
-  top: 20px;
+  top: 64px;
   right: 20px;
   width: 30px;
   height: 30px;
   cursor: pointer;
-  z-index: 1;
+  z-index: 5;
 }
-.menuwrap { /* 메뉴부분 임시로 안보이게 해둠 */
+body, html{
+  width:100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.menuwrap {
   display: none;
-}
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  right: -100%;
+  z-index: 10;
+  backdrop-filter: blur(140px);
+  /* background-image: url(../images/common/lf_common_panel_bg.png);
+  background-size: 100%; */
+  }
+  .menuLogo {
+    width: 175px;
+    padding: 80px 40px;
+  }
+  .category_list li {
+    margin-bottom: 30px;
+    text-align: center;
+    list-style: none;
+  }
+  .link_sub_item {
+    text-decoration: none;
+  }
+  .mobileMenuClose {
+    display: block;
+    margin: 0 auto;
+  }
+
 /* footer */
 footer {
   background-color: #333;

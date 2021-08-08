@@ -10,31 +10,47 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script type="text/javascript" src="./js/menu.js"></script>
 </head>
 
 <body>
-  <header>
+  <header class="mainHeader" style="background-color: #f6f6f6;">
     <img src="./images/main/lf_main_logo_top.svg" alt="레탑프랑스 로고" class="mainTopLogo">
     <img src="./images/common/lf_common_panel_icon.png" alt="메뉴보기" class="mobileMenu" id="menuBtn">
   </header>
-  
-  <div class="menuwrap">
-    <nav id="menu">
+  <div class="menu_bg"></div>
+  <div class="menuwrap"  id="menu">
+    <img src="./images/main/lf_main_top_title.png" alt="레탑프랑스 타이틀" class="menuLogo">
+    <nav>
         <!-- "메뉴목록 표시" -->
         <ul class="category_list">
-            <li class=""><a class="link_sub_item" href="#blank">레탑프랑스</a></li>
-            <li class=""><a class="link_sub_item" href="./subPages/class01.html">강의안내</a></li>
-            <li class=""><a class="link_sub_item" href="#blank">강의후기</a></li>
-            <li class=""><a class="link_sub_item" href="./subPages/teachers.html">강사소개</a></li>
-            <li class=""><a class="link_sub_item" href="#blank">유학안내</a></li>
-        </ul> 
-        <img src="./images/common/lf_common_close_icon.png" alt="메뉴닫기" class="mobileMenuClose">         
+            <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="#blank">레탑프랑스</a></li>
+            <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="./subPages/class01.html">강의안내</a></li>
+            <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="#blank">강의후기</a></li>
+            <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="./subPages/teachers.html">강사소개</a></li>
+            <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="#blank">유학안내</a></li>
+        </ul>         
     </nav>
+    <img src="./images/common/lf_common_close_icon.png" alt="메뉴닫기" class="mobileMenuClose">
   </div>
   
   <section>
-    <div class="mainTopBanner"></div>
+    <div class="mainTopBanner">
+      <div class="mainTopText">
+        <img src="./images/main/lf_main_top_title.png" alt="레탑 프랑스 타이틀" class="mainTopTitle">
+        <p class="nanumsquareSubtitle1Regular" style="padding-top: 30px;">
+          원어민 프리미엄 프랑스어 강의<br>
+          <span class="nanumsquareH5Regular">레탑프랑스</span>
+        </p>
+      </div>
+      <div class="mainBlueBox primaryMainBg">
+        <p class="nanumsquareSubtitle1Regular surface_white">
+          프랑스어 원어민 강사의 프리미엄 수업!<br>
+          레탑프랑스에서만 가능합니다.
+        </p>
+      </div>
+    </div>
   </section>
 
   <footer class="nanumsquareBody2 surface_white">
