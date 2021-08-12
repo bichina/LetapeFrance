@@ -97,4 +97,13 @@
   .secondBlueBox li:last-child {
     background-image: none;
   }
+
+  .mainSectionWrap { /* 강의안내 */
+    padding-top: 60px;
+  }
+  .mainSecondTitle01 {
+    border-left: 5px solid #3d4fa6;
+    padding-left: 10px;
+    margin-left: 20px;
+  }
 }
