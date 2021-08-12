@@ -133,17 +133,24 @@ body {
   color: #fff;
 }
 /* header */
-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   width: 100%;
-  height: 114px;
   z-index: 2;
+  height: 114px;
+  overflow: hidden;
+  background-color: rgba(246, 246, 246, 0.8);
 }
-
-header .mobileMenu {
+.header .mobileBack {
+  position: absolute;
+  top: 64px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+}
+.header .mobileMenu {
   position: absolute;
   top: 64px;
   right: 20px;
@@ -152,8 +159,9 @@ header .mobileMenu {
   cursor: pointer;
   z-index: 5;
 }
-body, html{
-  width:100%;
+body,
+html {
+  width: 100%;
   height: 100%;
   overflow-x: hidden;
 }
@@ -162,29 +170,29 @@ body, html{
   width: 100%;
   height: 100%;
   position: absolute;
-  top:0;
+  top: 0;
   right: -100%;
   z-index: 10;
   backdrop-filter: blur(140px);
   /* background-image: url(../images/common/lf_common_panel_bg.png);
   background-size: 100%; */
-  }
-  .menuLogo {
-    width: 175px;
-    padding: 80px 40px;
-  }
-  .category_list li {
-    margin-bottom: 30px;
-    text-align: center;
-    list-style: none;
-  }
-  .link_sub_item {
-    text-decoration: none;
-  }
-  .mobileMenuClose {
-    display: block;
-    margin: 0 auto;
-  }
+}
+.menuLogo {
+  width: 175px;
+  padding: 80px 40px;
+}
+.category_list li {
+  margin-bottom: 30px;
+  text-align: center;
+  list-style: none;
+}
+.link_sub_item {
+  text-decoration: none;
+}
+.mobileMenuClose {
+  display: block;
+  margin: 0 auto;
+}
 
 /* footer */
 footer {

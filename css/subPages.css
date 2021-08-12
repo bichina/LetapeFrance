@@ -15,7 +15,8 @@
   padding-left: 2px;
 }
 
-@media screen and (max-width: 599px) { /* 모바일 세로 */
+@media screen and (max-width: 599px) {
+  /* 모바일 세로 */
   /* 강사소개 페이지 */
   .teachersImg {
     width: 100%;
@@ -61,7 +62,7 @@
     margin: 10px 0;
   }
   .teacherResume {
-      padding-bottom: 50px;
+    padding-bottom: 50px;
   }
   .blueLine {
     width: 30px;
@@ -71,7 +72,7 @@
   }
 
   /* 비용페이지 */
-  .tuitionWrap{
+  .tuitionWrap {
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -81,7 +82,7 @@
   .blueLineLeft {
     width: 30px;
     height: 5px;
-    background-color: #3D4FA6;
+    background-color: #3d4fa6;
     float: left;
     margin: 30px 0;
   }
@@ -91,7 +92,7 @@
   .tuitionBox {
     width: 100%;
     padding: 20px;
-    border: 1px solid #5771EE;
+    border: 1px solid #5771ee;
     box-sizing: border-box;
     border-radius: 20px;
   }
@@ -103,7 +104,7 @@
   }
   .yellowBox {
     display: inline-block;
-    background-color: #FFC959;
+    background-color: #ffc959;
     padding: 0 5px;
     border-radius: 5px;
   }
@@ -114,7 +115,7 @@
   }
   .hourCost2 {
     display: inline-block;
-    color: #FF9900;
+    color: #ff9900;
     padding-left: 20px;
   }
 
@@ -145,7 +146,7 @@
   .classWrap {
     padding-top: 40px;
   }
-  .classInfoListWrap{
+  .classInfoListWrap {
     width: 100%;
     height: 120px;
   }
@@ -258,7 +259,7 @@
     padding: 13px 20px;
     border-radius: 100px;
     text-decoration: none;
-    border: 1px solid #3D4FA6;
+    border: 1px solid #3d4fa6;
   }
 
   /* 강의 교재 안내 */
@@ -268,12 +269,19 @@
     height: auto;
     padding: 0 20px;
     box-sizing: border-box;
-  } 
+  }
   .bookWrap img {
     width: 50%;
     padding: 10px 5px;
     box-sizing: border-box;
     float: left;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  /* 오시는길 */
+  .contactMap {
+    padding-top: 10px;
+    height: 330px;
+    box-sizing: border-box;
   }
 }

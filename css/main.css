@@ -1,46 +1,100 @@
 /* 빅데스크탑 */
-@media screen and (max-width:1799px) {
-    /* 데스크탑 */
-    }
-@media screen and (max-width:1199px) {
-    /* 타블렛 가로 */
-    }
-@media screen and (max-width:899px) {
-    /* 모바일 가로, 타블렛 세로 */
-    }
-@media screen and (max-width:599px) {/* 모바일 세로 */
+@media screen and (max-width: 1799px) {
+  /* 데스크탑 */
+}
+@media screen and (max-width: 1199px) {
+  /* 타블렛 가로 */
+}
+@media screen and (max-width: 899px) {
+  /* 모바일 가로, 타블렛 세로 */
+}
+@media screen and (max-width: 599px) {
+  /* 모바일 세로 */
+  .header {
+    background-color: rgba(243, 243, 243, 0.7);
+  }
+  .mainTopLogo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 54px;
+  }
+  .mainTopBanner {
+    width: 100%;
+    height: 645px;
+    background-image: url(../images/main/lf_main_Khaina_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .mainTopText {
+    width: 100%;
+    padding: 0 20px;
+    padding-top: 120px;
+  }
+  .mainTopTitle {
+    width: 230px;
+  }
+  .mainBlueBox {
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+  }
+  .mainBlueBox p {
+    padding-top: 24px;
+  }
 
-    .mainTopLogo {
-        display: block;
-        margin: 0 auto;
-        padding-top: 54px;
-    }
-    .mainTopBanner{
-        width: 100%;
-        height: 645px;
-        background-image: url(../images/main/lf_main_Khaina_img.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-    }
-    .mainTopText {
-        width: 100%;
-        padding: 0 20px;
-        padding-top: 120px;
-    }
-    .mainTopTitle {
-        width: 230px;
-    }
-    .mainBlueBox{
-        mix-blend-mode: multiply;
-        width: 100%;
-        height: 100px;
-        position: absolute;
-        bottom: 0;
-        text-align: center;
-    }
-    .mainBlueBox p {
-        padding-top: 24px;
-    }
+  .mainSecondBanner {
+    width: 100%;
+    height: 550px;
+    position: relative;
+  }
+  .secondImg {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/main/lf_main_seconBanner_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .secondImg img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .secondImgTitle {
+    padding: 25px 0;
+  }
+  .secondBlueWrap {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .secondBlueBox {
+    width: 100%;
+    height: 100px;
+  }
+  .secondBlueBox li {
+    list-style: none;
+    float: left;
+    width: 33.3%;
+    height: 100px;
+    text-align: center;
+    color: #ffde94;
+    padding-top: 26px;
+    box-sizing: border-box;
+    background-image: url(../images/main/lf_main_secondBanner_list_line.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .secondBlueBox li:last-child {
+    background-image: none;
+  }
 }

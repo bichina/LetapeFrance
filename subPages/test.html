@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>소스</title>
+
+    <!--제이쿼리 구글cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <style>
+
+    .header {
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      background:rgba(0,0,0,0.5);
+      z-index:1000;
+      height:114px;
+      overflow:hidden;
+      line-height:100px;
+      -webkit-transition: height 0.3s;
+      -moz-transition: height 0.3s;
+      transition: height 0.3s;
+    }
+
+  .header.roll {
+    height: 85px;
+    line-height:85px;
+    background : rgba(242, 109, 125, 0.65);
+  }
+
+
+  </style>
+  </head>
+
+  <body>
+    <header class="header">
+        <img src="./images/main/lf_main_logo_top.svg" alt="레탑프랑스 로고" class="mainTopLogo">
+        <img src="./images/common/lf_common_panel_icon.png" alt="메뉴보기" class="mobileMenu" id="menuBtn">
+      </header>
+	<script>
+	$(function(){
+	 var rollHeader = 114;
+	  $(window).scroll(function() {
+		var scroll = getCurrentScroll();
+		  if ( scroll >= rollHeader ) {
+			   $('.header').addClass('roll');
+			}
+			else {
+				$('.header').removeClass('roll');
+			}
+	  });
+	function getCurrentScroll() {
+		return window.pageYOffset || document.documentElement.scrollTop;
+		}
+	});
+	</script>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+  </body>
+</html>
