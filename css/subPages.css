@@ -255,12 +255,6 @@
     text-align: center;
     padding-bottom: 60px;
   }
-  .anotherPageBtn {
-    padding: 13px 20px;
-    border-radius: 100px;
-    text-decoration: none;
-    border: 1px solid #3d4fa6;
-  }
 
   /* 강의 교재 안내 */
   .bookWrap {
@@ -331,5 +325,23 @@
     transform: translate(-50%, -50%);
     width: fit-content;
     text-align: center;
+  }
+
+  /* 강의후기 */
+  .reviewWrap {
+    padding: 20px;
+    background-color: aqua;
+  }
+  .reviewBox {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .reviewBox img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
   }
 }

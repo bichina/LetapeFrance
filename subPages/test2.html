@@ -1,0 +1,39 @@
+
+<HTML>
+    <HEAD>
+        <style>
+            .btn01, .btn02{padding: 2px 4px 2px 4px; text-align: center; font-weight: 600; line-height: 1.4em; box-shadow: 1px 1px 2px #333; border-radius: 15px;}
+            .btn01{background-color: #008DFF; color: #333;}
+            .btn02{background-color: #FF3E00; color: #fff;}
+            .example01{padding: 5px; text-align: center; border: 1px solid #008DFF;}
+            
+            
+            </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#spreadBtn03").click(function(){
+            if($("#hiddenList02").is(":visible")){
+                            /*toggleClass(기존클래스명 바꿀클래스명);*/
+                            $("#spreadBtn03").toggleClass("btn01 btn02");
+                $("#hiddenList02").slideUp();
+            }else{
+                            $("#spreadBtn03").toggleClass("btn02 btn01");
+                $("#hiddenList02").slideDown();
+            }
+        });
+    });
+    </script>
+    
+    <BODY>
+    <button id="spreadBtn03" class="btn01">펼치기</button>
+    <ul id="hiddenList02" class="example01" style="display: none;">
+    <li>내용</li>
+    <li>내용</li>
+    <li>내용</li>
+    </ul>
+    </BODY>
+    </HTML>
+    
+    
+    

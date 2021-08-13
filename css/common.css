@@ -133,6 +133,12 @@ body {
 .surface_white {
   color: #fff;
 }
+.anotherPageBtn {
+  padding: 13px 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: 1px solid #3d4fa6;
+}
 /* header */
 .header {
   position: fixed;
@@ -174,7 +180,8 @@ html {
   top: 0;
   right: -100%;
   z-index: 10;
-  backdrop-filter: blur(140px);
+  backdrop-filter: blur(200px);
+  background-color: rgba(255, 255, 255, 0.7);
   /* background-image: url(../images/common/lf_common_panel_bg.png);
   background-size: 100%; */
 }
