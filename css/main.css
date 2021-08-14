@@ -1,3 +1,8 @@
+
+
+
+
+
 /* 빅데스크탑 */
 @media screen and (max-width: 1799px) {
   /* 데스크탑 */
@@ -115,8 +120,9 @@
   .classImgSlider {
     width: 100%;
     height: 200px;
-    background-color: antiquewhite;
+    margin-bottom: 40px;
   }
+  
   .classZoom {
     width: 100%;
     height: 140px;
@@ -158,6 +164,11 @@
     height: 600px;
     background-color: aqua;
   }
+  .mainTeacherBox {
+    width: 100%;
+    height: 555px;
+    background-color: aquamarine;
+  }
   .mainAnotherService {
     width: 100%;
     height: 180px;
@@ -172,4 +183,55 @@
     height: 170px;
     background-color: beige;
   }
+
+  /*이미지슬라이더*/
+
+      .swiper-container {
+        width: 100%;
+        height: 200px;
+      }
+
+      .swiper-slide {
+          width: 290px;
+          height: 170px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-pagination-bullet { 
+          width: 15px;
+          height: 15px;
+          background: #000;
+        }
+    .swiper-pagination-bullet-active { 
+        width: 35px;
+        transition: width .5s;
+        border-radius: 15px;
+        background: #FB6C6C;;
+    }
+      .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+          bottom: 0;
+      }
+  
 }

@@ -24,4 +24,13 @@ $(document).ready(function () {
   });
 });
 
-//헤더 스크롤시 변하는 거
+//리뷰 더보기 접기
+function shortSize(){
+  reviewText.style.height="40px";
+  more.style.display="block";
+}
+function longSize(){
+  reviewText.style.height="auto";
+  more.style.display="none";
+}
+

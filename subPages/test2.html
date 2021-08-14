@@ -1,39 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-<HTML>
-    <HEAD>
-        <style>
-            .btn01, .btn02{padding: 2px 4px 2px 4px; text-align: center; font-weight: 600; line-height: 1.4em; box-shadow: 1px 1px 2px #333; border-radius: 15px;}
-            .btn01{background-color: #008DFF; color: #333;}
-            .btn02{background-color: #FF3E00; color: #fff;}
-            .example01{padding: 5px; text-align: center; border: 1px solid #008DFF;}
-            
-            
-            </style>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Demo styles -->
+    <style>
+     
+      .swiper-container {
+        width: 100%;
+        height: 200px;
+        background-color: green;
+      }
+
+      .swiper-slide {
+          width: 290px;
+          height: 170px;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-pagination-bullet { 
+          width: 15px;
+          height: 15px;
+          background: rgba(0, 0, 0, 0.12);
+        }
+    .swiper-pagination-bullet-active { 
+        width: 35px;
+        transition: width .5s;
+        border-radius: 15px;
+        background: #FB6C6C;;
+    }
+      .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+          bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><a><img src="../images/main/lf_main_class_img01.png" alt=""></a></div>
+        <div class="swiper-slide"><a><img src="../images/main/lf_main_class_img02.png" alt=""></a></div>
+        <div class="swiper-slide"><a><img src="../images/main/lf_main_class_img03.png" alt=""></a></div>
+        <div class="swiper-slide"><a><img src="../images/main/lf_main_class_img04.png" alt=""></a></div>
+        <div class="swiper-slide"><a><img src="../images/main/lf_main_class_img05.png" alt=""></a></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
     <script>
-    $(document).ready(function(){
-        $("#spreadBtn03").click(function(){
-            if($("#hiddenList02").is(":visible")){
-                            /*toggleClass(기존클래스명 바꿀클래스명);*/
-                            $("#spreadBtn03").toggleClass("btn01 btn02");
-                $("#hiddenList02").slideUp();
-            }else{
-                            $("#spreadBtn03").toggleClass("btn02 btn01");
-                $("#hiddenList02").slideDown();
-            }
-        });
-    });
+      
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        }
+        
+      });
     </script>
-    
-    <BODY>
-    <button id="spreadBtn03" class="btn01">펼치기</button>
-    <ul id="hiddenList02" class="example01" style="display: none;">
-    <li>내용</li>
-    <li>내용</li>
-    <li>내용</li>
-    </ul>
-    </BODY>
-    </HTML>
-    
-    
-    
+  </body>
+</html>
