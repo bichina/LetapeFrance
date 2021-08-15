@@ -11,10 +11,12 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
   <!-- Swiper JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="./js/menu.js"></script>
   <script type="text/javascript" src="./js/swiper.js"></script>
   
@@ -169,10 +171,39 @@
         Meet our Team <img src="./images/common/lf_common_subTitle_circle.png" alt="점" class="subTitleCircle">
       </p>
       <div class="mainTeacher">
-        <div class="mainTeacherBox"  id="slides">
-          <div class="slides-container" style="width: 100%; height: 555px;">
-              
-          </div>
+        <div class="mainTeacherBox">
+          <div style="width: 100%; height: 555px; background-color: blueviolet;">test1</div>
+          <div style="width: 100%; height: 555px; background-color: blue;">test2</div>
+          <!--카이나선생님-->
+          <!-- <div class="swiper-slide" style="text-align: center;">
+            <img src="./images/main/lf_main_teacher_img01.jpg" alt="카이나선생님" style="width: 230px; height: 315px;padding-top: 25px;">
+            <h6 class="nanumsquareH6Medium" style="padding-top: 12px;">카이나</h6>
+            <p class="nanumsquareSubtitle1Regular mediumEmphasis_onLight" style="padding-bottom: 10px;">Khaina</p>
+            <div class="mainTeacherLine primaryLightBg"></div>
+            <p class="primaryMain nanumsquareSubtitle2Medium" style="padding-top: 10px;">한국에서 프랑스어 강의 경력 6년</p>
+            <div style="width: fit-content; margin: 0 auto; padding-top: 10px;">
+              <p class="nanumsquareBody2" style="text-align: left;">
+                - 델프 강의 경력 다수<br>
+                - 현)레탑 프랑스 대표 강사<br>
+                - 전)더 한섬 출강강사 입문, 중급반<br>
+                - SPC 현장 프랑스어 레벨 테스트 감독관
+              </p>
+          </div> -->
+          <!--카이나선생님2-->
+          <!-- <div class="swiper-slide" style="text-align: center;">
+            <img src="./images/main/lf_main_teacher_img01.jpg" alt="카이나선생님" style="width: 230px; height: 315px;padding-top: 25px;">
+            <h6 class="nanumsquareH6Medium" style="padding-top: 12px;">카이나</h6>
+            <p class="nanumsquareSubtitle1Regular mediumEmphasis_onLight" style="padding-bottom: 10px;">Khaina</p>
+            <div class="mainTeacherLine primaryLightBg"></div>
+            <p class="primaryMain nanumsquareSubtitle2Medium" style="padding-top: 10px;">한국에서 프랑스어 강의 경력 6년</p>
+            <div style="width: fit-content; margin: 0 auto; padding-top: 10px;">
+              <p class="nanumsquareBody2" style="text-align: left;">
+                - 델프 강의 경력 다수<br>
+                - 현)레탑 프랑스 대표 강사<br>
+                - 전)더 한섬 출강강사 입문, 중급반<br>
+                - SPC 현장 프랑스어 레벨 테스트 감독관
+              </p>
+          </div> -->
         </div>
         <div style="text-align: center; padding-top: 10px;">
           <a href="./subPages/review.html" class="anotherPageBtn nanumsquareSubtitle2Medium primaryMain">
@@ -181,9 +212,33 @@
         </div>
       </div>
     </div>
-    <div class="mainAnotherService"></div>
+    <div class="mainAnotherService"><!--그밖의 서비스-->
+      <p class="surface_white nanumsquareSubtitle2Medium">
+        레탑 프랑스의 또 다른<br>
+        서비스를 이용해보세요!
+      </p>
+      <div style="padding-top: 10px;">
+        <a href="./subPages/anotherService.html" class="anotherServiceBtn nanumsquareSubtitle2Medium surface_white">
+          자세히 보기
+        </a>
+      </div>
+      <div class="anotherHashtagWrap nanumsquareCaption surface_white">
+        <div>#유학준비</div>
+        <div>#통역</div>
+        <div>#번역</div>
+        <div>#프랑스현지정착서비스</div>
+      </div>
+    </div><!--그밖의 서비스-->
     <h5 class="primaryMain nanumsquareH5Regular" style="text-align: center; padding-bottom: 30px;">레탑 프랑스 오시는 길</h5>
-    <div class="mainContactWrap"></div>
+    <div class="mainContactWrap">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="./subPages/contact.html"><img src="./images/main/lf_main_contact_img01.png" alt="강의실"></a></div>
+          <div class="swiper-slide"><a href="./subPages/contact.html"><img src="./images/main/lf_main_contact_img02.png" alt="강의실"></a></div>
+          <div class="swiper-slide"><a href="./subPages/contact.html"><img src="./images/main/lf_main_contact_img03.png" alt="강의실"></a></div>
+        </div>
+      </div>
+    </div>
     <p class="nanumsquareSubtitle1Regular" style="text-align: center; padding: 40px 0;">
       운영시간 10:00 - 22:00<br>
       <span class="nanumsquareBody1">(사무실 방문 전 사전 예약 필수)</span><br><br>
@@ -236,7 +291,7 @@
       
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: "auto",
-      spaceBetween: 30,
+      spaceBetween: 20,
       centeredSlides: true,
       autoplay: {
         delay: 1500,
