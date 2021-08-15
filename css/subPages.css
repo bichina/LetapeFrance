@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* 서브페이지 공통 */
 .subPageTitle {
   padding-left: 20px;
@@ -255,6 +262,49 @@
     text-align: center;
     padding-bottom: 60px;
   }
+  .premiumWrap {
+    width: 100%;
+    padding: 40px 20px 0 20px;
+    box-sizing: border-box;
+  }
+  .premiumBox{
+    border: 1px solid #5771EE;
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .class04BannerImg {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  .class03BlueLine {
+    width: 2px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .class03BannerImg01 {
+    width: 100%;
+  }
+  .class03Interview {
+    padding: 45px 0 50px 0;
+    text-align: center;
+  }
+  .class03InterviewTitle {
+    display: block;
+    width: 80%;
+    padding-bottom: 35px;
+    margin: 0 auto;
+  }
+  .class03InterviewText {
+    font-family: "NanumSquare", sans-serif !important;
+    font-weight: 300;
+    font-size: 0.88rem; /* 14px */
+    line-height: 1.5rem; /* 24px */
+    letter-spacing: 0.01rem; /* 0.1px */
+    transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
+  }
 
   /* 강의 교재 안내 */
   .bookWrap {
@@ -355,10 +405,53 @@
     overflow: hidden;
   }
   .reviewBox button {
-    margin-top: 4px;
+    margin-top: 10px;
     border: 0;
     outline: 0;
     background-color: #fff;
     float: right;
+  }
+
+  /* 그밖의서비스 */
+  .anotherTitle {
+    text-align: center;
+    margin-bottom: 65px;
+    color: #555;
+    position: relative;
+  }
+  .anotherPoint {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .anotherCardWrap {
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  .anotherGrayCard {
+    width: 100%;
+    height: auto;
+    background: #F5F5F5;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+  }
+  .mainSecondTitle01 {
+    border-left: 5px solid #3d4fa6;
+    padding-left: 10px;
+    margin-left: 20px;
+    line-height: 1.5rem;
+  }
+  .anotherCardTitle {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'yg-jalnan';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem; /* 16px */
   }
 }

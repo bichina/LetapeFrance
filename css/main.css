@@ -21,7 +21,7 @@
   .mainTopLogo {
     display: block;
     margin: 0 auto;
-    padding-top: 54px;
+    padding-top: 10px;
   }
   .mainTopBanner {
     width: 100%;
@@ -35,7 +35,7 @@
   .mainTopText {
     width: 100%;
     padding: 0 20px;
-    padding-top: 120px;
+    padding-top: 75px;
   }
   .mainTopTitle {
     width: 230px;
@@ -162,17 +162,25 @@
   .mainTeacher {
     width: 100%;
     height: 600px;
-    background-color: aqua;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
-    background-color: aquamarine;
   }
   .mainTeacherLine {
     width: 15px;
     height: 3px;
     margin: 0 auto;
+  }
+  .bxslider { width: 100%; height: 555px; }
+  .bxslider li { list-style: none; width: 100%; height: 555px; }
+  .bx-controls {
+    display: none;
+  }
+  .bx-wrapper {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
   }
   .mainAnotherService { /* 그밖의 서비스 */
     width: 100%;
@@ -209,9 +217,7 @@
   .mainContactWrap .swiper-container {
     height: 170px;
   }
-  .mainContactWrap .swiper-pagination-bullet {
-    display: none;
-  }
+  
 
   /*이미지슬라이더*/
 
@@ -221,8 +227,8 @@
       }
 
       .swiper-slide {
-          width: 290px;
-          height: 170px;
+        width: 290px;
+        height: 170px;
         text-align: center;
         font-size: 18px;
         background: #fff;

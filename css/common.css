@@ -146,20 +146,20 @@ body {
   left: 0;
   width: 100%;
   z-index: 2;
-  height: 114px;
+  height: 70px;
   overflow: hidden;
   background-color: #fff;
 }
 .header .mobileBack {
   position: absolute;
-  top: 64px;
+  top: 24px;
   left: 20px;
   width: 30px;
   height: 30px;
 }
 .header .mobileMenu {
   position: absolute;
-  top: 64px;
+  top: 24px;
   right: 20px;
   width: 30px;
   height: 30px;
