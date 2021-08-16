@@ -21,9 +21,24 @@
   bottom: 6px;
   padding-left: 2px;
 }
+@media screen and (min-width:1024px) {
 
-@media screen and (max-width: 599px) {
-  /* 모바일 세로 */
+	/* PC CSS */
+
+}
+@media screen and (min-width:768px) and (max-width: 1023px) {
+
+	/* 테블릿 CSS */
+
+}
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* 모바일 가로 CSS */
+}
+@media screen and (max-width:479px){ 
+  /* 모바일 세로 css */
+
+
   /* 강사소개 페이지 */
   .teachersImg {
     width: 100%;
