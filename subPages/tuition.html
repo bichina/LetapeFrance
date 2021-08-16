@@ -9,9 +9,32 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/subPages.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/menu.js"></script>
 </head>
 <body>
+  <header class="header">
+    <img src="../images/common/lf_common_back_icon.png" alt="돌아가기" class="mobileBack" value="취소" onclick="goBack()">
+    <img src="../images/common/lf_common_panel_icon.png" alt="메뉴보기" class="mobileMenu" id="menuBtn">
+  </header>
+  <div class="menu_bg"></div>
+  <div class="menuwrap"  id="menu">
+      <img src="../images/main/lf_main_top_title.png" alt="레탑프랑스 타이틀" class="menuLogo">
+      <nav>
+          <!-- "메뉴목록 표시" -->
+          <ul class="category_list">
+              <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="../index.html">레탑프랑스</a></li>
+              <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="../subPages/class01.html">강의안내</a></li>
+              <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="../subPages/review.html">강의후기</a></li>
+              <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="../subPages/teachers.html">강사소개</a></li>
+              <li class="nanumsquareH5Regular"><a class="link_sub_item primaryMain" href="../subPages/anotherService.html">유학안내</a></li>
+          </ul>         
+      </nav>
+      <img src="../images/common/lf_common_close_icon.png" alt="메뉴닫기" class="mobileMenuClose">
+  </div>
+
     <section class="tuitionWrap">
+      <div style="width: 100%; height: 114px; background-color: #fff;"></div>
         <img src="../images/subPages/lf_subPages_tuition_logo.svg" class="tuitionLogo" alt="레탑프랑스 로고">
         <h5 class="nanumsquareH5Regular">레탑프랑스 <span style="color: #FF9900;">강의 비용 안내</span></h5>
         <div style="width: 100%; height: 65px;"><div class="blueLineLeft"></div></div>
@@ -71,5 +94,15 @@
           상담시간&nbsp;&#58;&nbsp;08:00 - 18:00
         </p>
     </footer>
+
+    <!--하단 문의 버튼-->
+  <div class="bottomBtn nanumsquareH6Medium">
+    <div class="bottomBtnBox" style="padding-right: 10px;">
+      <a href='tel:010-4331-6610'><div style="background-color: #5771EE; color: #fff;">전화문의</div></a>
+    </div>
+    <div class="bottomBtnBox" style="padding-left: 10px;">
+      <a href="#blank"><div style="background-color: #FEE500; color: rgba(0, 0, 0, 0.87);">카카오톡 문의</div></a>
+    </div>
+  </div>
 </body>
 </html> 
