@@ -264,7 +264,12 @@ footer .footerSnsWrap a {
   padding-top: 19px;
   box-sizing: border-box;
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 1028px) {
+  footer {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1025px) {
   /* 태블릿 CSS */
   html,
   body {

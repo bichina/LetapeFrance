@@ -33,6 +33,10 @@
   }
 
   /* 강사소개 페이지 */
+  .teacherWrap {
+    width: 480px;
+    margin: 0 auto;
+  }
   .teachersImg {
     width: 100%;
     height: auto;
@@ -446,8 +450,10 @@
     transform: translate(-50%, -50%);
   }
   .anotherCardWrap {
+    width: 480px;
     padding: 30px 20px;
     box-sizing: border-box;
+    margin: 0 auto;
   }
   .anotherGrayCard {
     width: 100%;
