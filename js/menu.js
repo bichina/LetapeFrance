@@ -36,29 +36,34 @@ var swiper = new Swiper(".mySwiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-  }
+  },
 });
 
 //메인화면 - 강사소개
 $(document).ready(function () {
-  $('.bxslider').bxSlider({
-      auto: true, // 자동으로 애니메이션 시작
-      speed: 500,  // 애니메이션 속도
-      pause: 3000,  // 애니메이션 유지 시간 (1000은 1초)
-      mode: 'horizontal', // 슬라이드 모드 ('fade', 'horizontal', 'vertical' 이 있음)
-      autoControls: true, // 시작 및 중지버튼 보여짐
-      pager: true, // 페이지 표시 보여짐
-      captions: true, // 이미지 위에 텍스트를 넣을 수 있음
+  $(".bxslider").bxSlider({
+    auto: true, // 자동으로 애니메이션 시작
+    speed: 500, // 애니메이션 속도
+    pause: 3000, // 애니메이션 유지 시간 (1000은 1초)
+    mode: "horizontal", // 슬라이드 모드 ('fade', 'horizontal', 'vertical' 이 있음)
+    autoControls: true, // 시작 및 중지버튼 보여짐
+    pager: true, // 페이지 표시 보여짐
+    captions: true, // 이미지 위에 텍스트를 넣을 수 있음
   });
 });
 
 //리뷰 더보기 접기
-function shortSize(){
-  reviewText.style.height="40px";
-  more.style.display="block";
+function shortSize() {
+  $(".close").click(function (e) {
+    $(this).parent(".reviewText").height("40px");
+    $(this).parent().next(".more").css("display", "block");
+  });
+  //  reviewText.style.height="40px";
+  // more.style.display="block";
 }
-function longSize(){
-  reviewText.style.height="auto";
-  more.style.display="none";
+function longSize() {
+  $(".more").click(function (e) {
+    $(this).prev(".reviewText").height("auto");
+    $(this).css("display", "none");
+  });
 }
-

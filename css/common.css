@@ -181,10 +181,8 @@ html {
   top: 0;
   right: -100%;
   z-index: 10;
-  backdrop-filter: blur(200px);
-  background-color: rgba(255, 255, 255, 0.7);
-  /* background-image: url(../images/common/lf_common_panel_bg.png);
-  background-size: 100%; */
+  background-image: url(../images/common/lf_common_panel_bg.jpg);
+  background-size: 100% 100%;
 }
 .menuLogo {
   width: 175px;
@@ -266,7 +264,18 @@ footer .footerSnsWrap a {
   padding-top: 19px;
   box-sizing: border-box;
 }
-
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 374px) {
   /* 모바일 작은 화면 CSS */
   html,

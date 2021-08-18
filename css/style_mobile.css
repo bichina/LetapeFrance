@@ -8,9 +8,6 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   /* 모바일 가로 CSS */
-  body {
-    font-size: 16px;
-  }
 
   /* 서브페이지 공통 */
   .subPageTitle {
@@ -85,6 +82,8 @@
 
   /* 비용페이지 */
   .tuitionWrap {
+    width: 80%;
+    margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -194,13 +193,13 @@
     display: inline-block;
   }
   .classAdvantages {
-    padding: 40px 20px;
+    padding: 40px 40px;
     background-color: rgba(0, 0, 0, 0.04);
   }
   .classAdvantagesList {
     list-style: none;
     border-radius: 10px;
-    height: 60px;
+    height: 70px;
     padding: 0 10px;
     margin-bottom: 10px;
     background-color: #fff;
@@ -210,17 +209,20 @@
   .classAdvantagesList ul {
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
   .classAdvantagesList ul li {
     list-style: none;
     float: left;
   }
   .classOffer {
-    padding: 30px 20px;
+    padding: 30px 40px;
   }
   .classOffer .classOfferListWrap {
-    padding: 20px;
+    padding: 20px 0;
     box-sizing: border-box;
+    width: 85%;
+    margin: 0 auto;
   }
   .classOffer .classOfferListWrap .classOfferList {
     list-style: none;
@@ -231,6 +233,10 @@
   }
   .classOfferList div {
     float: left;
+  }
+  .classOfferListText {
+    line-height: 1.5rem;
+    width: calc(85vw - 115px);
   }
   .offerHashtagWrap {
     padding-top: 40px;
@@ -243,7 +249,7 @@
     margin: 10px 5px 0 0;
   }
   .recommendWrap {
-    padding: 40px 20px;
+    padding: 40px;
     box-sizing: border-box;
     position: relative;
   }
@@ -269,7 +275,7 @@
   }
   .premiumWrap {
     width: 100%;
-    padding: 40px 20px 0 20px;
+    padding: 40px 40px 0 40px;
     box-sizing: border-box;
   }
   .premiumBox {
@@ -384,7 +390,7 @@
 
   /* 강의후기 */
   .reviewWrap {
-    padding: 20px;
+    padding: 40px;
   }
   .reviewBox {
     border: 1px solid rgba(0, 0, 0, 0.12);
@@ -418,6 +424,9 @@
   }
 
   /* 그밖의서비스 */
+  .anothercontentsWrap {
+    padding: 0 20px;
+  }
   .anotherTitle {
     text-align: center;
     margin-bottom: 65px;
@@ -462,10 +471,6 @@
 }
 @media screen and (min-width: 375px) and (max-width: 479px) {
   /* 모바일 세로 CSS */
-
-  body {
-    font-size: 16px;
-  }
 
   /* 서브페이지 공통 */
   .subPageTitle {
@@ -665,6 +670,7 @@
   .classAdvantagesList ul {
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
   .classAdvantagesList ul li {
     list-style: none;
@@ -686,6 +692,10 @@
   }
   .classOfferList div {
     float: left;
+  }
+  .classOfferListText {
+    line-height: 1.5rem;
+    width: calc(100vw - 115px);
   }
   .offerHashtagWrap {
     padding-top: 40px;
@@ -1117,6 +1127,7 @@
   .classAdvantagesList ul {
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
   .classAdvantagesList ul li {
     list-style: none;
@@ -1138,6 +1149,10 @@
   }
   .classOfferList div {
     float: left;
+  }
+  .classOfferListText {
+    line-height: 1.5rem;
+    width: calc(100vw - 115px);
   }
   .offerHashtagWrap {
     padding-top: 40px;
