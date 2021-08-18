@@ -1,274 +1,16 @@
-@media screen and (min-width:1024px) {
-
-	/* PC CSS */
-
+@media screen and (min-width: 1024px) {
+  /* PC CSS */
 }
-@media screen and (min-width:768px) and (max-width: 1025px) {
-
-	/* 테블릿 CSS */
-  .header {
-    background-color: rgba(243, 243, 243, 0.7);
-  }
-  .mainTopLogo {
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-  }
-  .mainTopBanner {
-    width: 100%;
-    height: 900px;
-    background-image: url(../images/main/lf_main_Khaina_img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  .mainTopText {
-    width: 100%;
-    padding: 0 20px;
-    padding-top: 75px;
-  }
-  .mainTopTitle {
-    width: 230px;
-  }
-  .mainBlueBox {
-    mix-blend-mode: multiply;
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-  }
-  .mainBlueBox p {
-    padding-top: 24px;
-  }
-
-  .mainSecondBanner {
-    width: 100%;
-    height: 550px;
-    position: relative;
-  }
-  .secondImg {
-    width: 100%;
-    height: 500px;
-    background-image: url(../images/main/lf_main_seconBanner_img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-  }
-  .secondImg img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 50px;
-  }
-  .secondImgTitle {
-    padding: 25px 0;
-  }
-  .secondBlueWrap {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
-  .secondBlueBox {
-    width: 80%;
-    height: 100px;
-    margin: 0 auto;
-  }
-  .secondBlueBox li {
-    list-style: none;
-    float: left;
-    width: 33.3%;
-    height: 100px;
-    text-align: center;
-    color: #ffde94;
-    padding-top: 26px;
-    box-sizing: border-box;
-    background-image: url(../images/main/lf_main_secondBanner_list_line.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-  }
-  .secondBlueBox li:last-child {
-    background-image: none;
-  }
-
-  .mainSectionWrap {
-    /* 강의안내 */
-    padding-top: 60px;
-  }
-  .mainSecondTitle01 {
-    border-left: 5px solid #3d4fa6;
-    padding-left: 10px;
-    margin-left: 20px;
-    line-height: 1.5rem;
-  }
-  .mainSubText {
-    text-align: center;
-    padding: 24px 0;
-  }
-  .classImgSlider {
-    width: 100%;
-    height: 350px;
-    margin-bottom: 40px;
-  }
-  
-  .classZoom {
-    width: 100%;
-    height: 200px;
-    padding: 60px 150px;
-    box-sizing: border-box;
-    background-color: #e9f0f7;
-    background-image: url(../images/main/lf_main_zoom_illust.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right 150px top 20px;
-  }
-  .classZoom img {
-    width: 80px;
-    padding-top: 5px;
-  }
-  .mainBook {
-    padding: 40px 20px 0 20px;
-  }
-  .mainBookImg {
-    width: 80%;
-    display: block;
-    margin: 0 auto;
-  }
-  .mainReviewWrap {
-    padding: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-  }
-  .mainReview {
-    padding: 20px 15px;
-  }
-  .mainStudent {
-    display: block;
-    width: 200px;
-    height: 200px;
-    padding: 10px 0 20px 0;
-    margin: 0 auto;
-  }
-  .mainTeacher {
-    width: 100%;
-    height: 600px;
-  }
-  .mainTeacherBox {
-    width: 100%;
-    height: 555px;
-  }
-  .mainTeacherLine {
-    width: 15px;
-    height: 3px;
-    margin: 0 auto;
-  }
-  .bxslider { width: 100%; height: 555px; }
-  .bxslider li { list-style: none; width: 100%; height: 555px; }
-  .bx-controls {
-    display: none;
-  }
-  .bx-wrapper {
-    box-shadow: none;
-    border: none;
-    margin-bottom: 0;
-  }
-  .mainAnotherService { /* 그밖의 서비스 */
-    width: 100%;
-    height: 180px;
-    background-image: url(../images/main/lf_main_another_img.png);
-    background-size: contain;
-    background-position: right 30px center;
-    background-repeat: no-repeat;
-    margin: 60px 0;
-    padding: 35px 70px;
-    box-sizing: border-box;
-    background-color: #546BD7;
-  }
-  .anotherServiceBtn {
-    padding: 8px 15px;
-    border-radius: 100px;
-    text-decoration: none;
-    border: 1px solid #fff;
-  }
-  .anotherHashtagWrap {
-    padding-top: 30px;
-    text-align: center;
-  }
-  .anotherHashtagWrap div {
-    display: inline-block;
-    padding: 5px;
-    border-radius: 5px;
-    background: rgba(133, 154, 255, 0.7);
-    margin-right: 4px;
-  }
-  .mainContactWrap {
-    width: 100%;
-    height: 295px;
-  }
-  .mainContactWrap .swiper-container {
-    height: 295px;
-  }
-  
-
-  /*이미지슬라이더*/
-
-      .swiper-container {
-        width: 100%;
-        height: 350px;
-      }
-
-      .swiper-slide {
-        width: 500px;
-        height: 295px;
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .swiper-pagination-bullet { 
-          width: 15px;
-          height: 15px;
-          background: #000;
-        }
-    .swiper-pagination-bullet-active { 
-        width: 35px;
-        transition: width .5s;
-        border-radius: 15px;
-        background: #FB6C6C;;
-    }
-      .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-          bottom: 0;
-      }
-  
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  /* 테블릿 CSS */
 }
-@media screen and (min-width:480px) and (max-width:767px){
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* 모바일 가로 CSS */
+  html,
+  body {
+    font-size: 16px;
+  }
 
-	/* 모바일 가로 CSS */
   .header {
     background-color: rgba(243, 243, 243, 0.7);
   }
@@ -288,7 +30,7 @@
   }
   .mainTopText {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 40px;
     padding-top: 75px;
   }
   .mainTopTitle {
@@ -337,9 +79,8 @@
     box-sizing: border-box;
   }
   .secondBlueBox {
-    width: 80%;
+    width: 100%;
     height: 100px;
-    margin: 0 auto;
   }
   .secondBlueBox li {
     list-style: none;
@@ -359,8 +100,13 @@
   }
 
   .mainSectionWrap {
-    /* 강의안내 */
     padding-top: 60px;
+  }
+
+  /* 강의안내 */
+  .maintitleWrap {
+    padding-left: 30px;
+    box-sizing: border-box;
   }
   .mainSecondTitle01 {
     border-left: 5px solid #3d4fa6;
@@ -374,21 +120,26 @@
   }
   .classImgSlider {
     width: 100%;
-    height: 200px;
+    height: 240px;
     margin-bottom: 40px;
   }
-  
+
   .classZoom {
     width: 100%;
     height: 140px;
-    padding: 30px 100px;
-    box-sizing: border-box;
     background-color: #e9f0f7;
+  }
+  .classZoomContents {
+    width: 80%;
+    height: 140px;
+    margin: 0 auto;
     background-image: url(../images/main/lf_main_zoom_illust.svg);
     background-repeat: no-repeat;
-    background-position: right 100px top 27px;
+    background-position: right 45px top 27px;
+    padding: 30px 45px;
+    box-sizing: border-box;
   }
-  .classZoom img {
+  .classZoomContents img {
     width: 80px;
     padding-top: 5px;
   }
@@ -427,8 +178,15 @@
     height: 3px;
     margin: 0 auto;
   }
-  .bxslider { width: 100%; height: 555px; }
-  .bxslider li { list-style: none; width: 100%; height: 555px; }
+  .bxslider {
+    width: 100%;
+    height: 555px;
+  }
+  .bxslider li {
+    list-style: none;
+    width: 100%;
+    height: 555px;
+  }
   .bx-controls {
     display: none;
   }
@@ -437,17 +195,23 @@
     border: none;
     margin-bottom: 0;
   }
-  .mainAnotherService { /* 그밖의 서비스 */
+  .mainAnotherService {
+    /* 그밖의 서비스 */
     width: 100%;
+    height: 180px;
+    margin: 60px 0;
+    background-color: #546bd7;
+  }
+  .mainAnotherContentsWrap {
+    width: 80%;
     height: 180px;
     background-image: url(../images/main/lf_main_another_img.png);
     background-size: contain;
-    background-position: right 30px center;
+    background-position: right center;
     background-repeat: no-repeat;
-    margin: 60px 0;
-    padding: 35px 70px;
+    padding: 35px;
     box-sizing: border-box;
-    background-color: #546BD7;
+    margin: 0 auto;
   }
   .anotherServiceBtn {
     padding: 8px 15px;
@@ -468,67 +232,69 @@
   }
   .mainContactWrap {
     width: 100%;
-    height: 170px;
+    height: 200px;
   }
   .mainContactWrap .swiper-container {
-    height: 170px;
+    height: 200px;
   }
-  
 
   /*이미지슬라이더*/
 
-      .swiper-container {
-        width: 100%;
-        height: 200px;
-      }
+  .swiper-container {
+    width: 100%;
+    height: 240px;
+  }
 
-      .swiper-slide {
-        width: 290px;
-        height: 170px;
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
+  .swiper-slide {
+    width: 340px;
+    height: 200px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
 
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .swiper-pagination-bullet { 
-          width: 15px;
-          height: 15px;
-          background: #000;
-        }
-    .swiper-pagination-bullet-active { 
-        width: 35px;
-        transition: width .5s;
-        border-radius: 15px;
-        background: #FB6C6C;;
-    }
-      .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-          bottom: 0;
-      }
-  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #000;
+  }
+  .swiper-pagination-bullet-active {
+    width: 35px;
+    transition: width 0.5s;
+    border-radius: 15px;
+    background: #fb6c6c;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 0;
+  }
 }
-@media screen and (min-width:375px) and (max-width:479px){ /* 모바일 세로 CSS */
+@media screen and (min-width: 375px) and (max-width: 479px) {
+  /* 모바일 세로 CSS */
 
-  html, body {
+  html,
+  body {
     font-size: 16px;
   }
 
@@ -639,7 +405,7 @@
     height: 200px;
     margin-bottom: 40px;
   }
-  
+
   .classZoom {
     width: 100%;
     height: 140px;
@@ -689,8 +455,15 @@
     height: 3px;
     margin: 0 auto;
   }
-  .bxslider { width: 100%; height: 555px; }
-  .bxslider li { list-style: none; width: 100%; height: 555px; }
+  .bxslider {
+    width: 100%;
+    height: 555px;
+  }
+  .bxslider li {
+    list-style: none;
+    width: 100%;
+    height: 555px;
+  }
   .bx-controls {
     display: none;
   }
@@ -699,7 +472,8 @@
     border: none;
     margin-bottom: 0;
   }
-  .mainAnotherService { /* 그밖의 서비스 */
+  .mainAnotherService {
+    /* 그밖의 서비스 */
     width: 100%;
     height: 180px;
     background-image: url(../images/main/lf_main_another_img.png);
@@ -709,7 +483,7 @@
     margin: 60px 0;
     padding: 35px;
     box-sizing: border-box;
-    background-color: #546BD7;
+    background-color: #546bd7;
   }
   .anotherServiceBtn {
     padding: 8px 15px;
@@ -735,7 +509,6 @@
   .mainContactWrap .swiper-container {
     height: 170px;
   }
-  
 
   /*이미지슬라이더*/
 
@@ -772,23 +545,26 @@
     height: 100%;
     object-fit: cover;
   }
-  .swiper-pagination-bullet { 
-      width: 15px;
-      height: 15px;
-      background: #000;
-    }
-  .swiper-pagination-bullet-active { 
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #000;
+  }
+  .swiper-pagination-bullet-active {
     width: 35px;
-    transition: width .5s;
+    transition: width 0.5s;
     border-radius: 15px;
-    background: #FB6C6C;;
+    background: #fb6c6c;
   }
-  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-      bottom: 0;
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 0;
   }
-  
 }
-@media screen and (max-width:374px){ /* 모바일 작은 화면 CSS */
+
+@media screen and (max-width: 374px) {
+  /* 모바일 작은 화면 CSS */
 
   .header {
     background-color: rgba(243, 243, 243, 0.7);
@@ -898,7 +674,7 @@
     height: 200px;
     margin-bottom: 40px;
   }
-  
+
   .classZoom {
     width: 100%;
     height: 130px;
@@ -949,8 +725,15 @@
     height: 3px;
     margin: 0 auto;
   }
-  .bxslider { width: 100%; height: 555px; }
-  .bxslider li { list-style: none; width: 100%; height: 555px; }
+  .bxslider {
+    width: 100%;
+    height: 555px;
+  }
+  .bxslider li {
+    list-style: none;
+    width: 100%;
+    height: 555px;
+  }
   .bx-controls {
     display: none;
   }
@@ -959,7 +742,8 @@
     border: none;
     margin-bottom: 0;
   }
-  .mainAnotherService { /* 그밖의 서비스 */
+  .mainAnotherService {
+    /* 그밖의 서비스 */
     width: 100%;
     height: 170px;
     background-image: url(../images/main/lf_main_another_img.png);
@@ -969,7 +753,7 @@
     margin: 60px 0;
     padding: 35px 25px;
     box-sizing: border-box;
-    background-color: #546BD7;
+    background-color: #546bd7;
   }
   .anotherServiceBtn {
     padding: 8px 15px;
@@ -995,7 +779,6 @@
   .mainContactWrap .swiper-container {
     height: 170px;
   }
-  
 
   /*이미지슬라이더*/
 
@@ -1032,19 +815,20 @@
     height: 100%;
     object-fit: cover;
   }
-  .swiper-pagination-bullet { 
-      width: 10px;
-      height: 10px;
-      background: #000;
-    }
-  .swiper-pagination-bullet-active { 
-    width: 20px;
-    transition: width .5s;
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background: #000;
+  }
+  .swiper-pagination-bullet-active {
+    width: 25px;
+    transition: width 0.5s;
     border-radius: 15px;
-    background: #FB6C6C;;
+    background: #fb6c6c;
   }
-  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-      bottom: 0;
+  .swiper-container-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 0;
   }
-  
 }
