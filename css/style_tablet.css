@@ -1,0 +1,479 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* 모바일 가로 CSS */
+
+  /* 서브페이지 공통 */
+  .subPageTitle {
+    padding-left: 20px;
+  }
+  .subTitle {
+    padding: 20px 0 10px 0;
+    text-align: center;
+  }
+  .subTitleTop {
+    position: relative;
+  }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 6px;
+    padding-left: 2px;
+  }
+
+  /* 강사소개 페이지 */
+  .teachersImg {
+    width: 100%;
+    height: auto;
+  }
+  .taecherInfo {
+    text-align: center;
+    padding: 20px 0 30px 0;
+  }
+  .teacherName {
+    display: inline-block;
+    padding: 3px 15px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  .classInfoText1 {
+    text-align: center;
+  }
+  .classInfoText2 {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .pointBg {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: #d4dcff;
+    bottom: 0;
+    z-index: -999;
+  }
+  .pointSentence {
+    text-align: center;
+    padding: 30px 0;
+  }
+  .pointSentence img {
+    padding: 25px 0;
+  }
+  .resumeLine {
+    width: 100%;
+    height: 1px;
+    background-color: #fb6c6c;
+    margin: 10px 0;
+  }
+  .teacherResume {
+    padding-bottom: 50px;
+  }
+  .blueLine {
+    width: 30px;
+    height: 5px;
+    background-color: #5771ee;
+    margin: 0 auto;
+  }
+
+  /* 비용페이지 */
+  .tuitionWrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .tuitionLogo {
+    padding: 10px 0;
+  }
+  .blueLineLeft {
+    width: 30px;
+    height: 5px;
+    background-color: #3d4fa6;
+    float: left;
+    margin: 30px 0;
+  }
+  .tuitionBoxWrap {
+    padding: 30px 0;
+  }
+  .tuitionBox {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #5771ee;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  .hourBox {
+    display: inline-block;
+    padding: 0 5px;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .yellowBox {
+    display: inline-block;
+    background-color: #ffc959;
+    padding: 0 5px;
+    border-radius: 5px;
+  }
+  .hourCost1 {
+    text-decoration: line-through;
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .hourCost2 {
+    display: inline-block;
+    color: #ff9900;
+    padding-left: 20px;
+  }
+
+  /* 강의소개-기초강의 */
+  .classMenu {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+  }
+  .classMenu li {
+    display: table-cell;
+    float: left;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+    line-height: 70px;
+  }
+  .menuSelect {
+    color: #fb6c6c;
+    border-bottom: 2px solid #fb6c6c;
+  }
+  .menuDefault {
+    color: rgba(0, 0, 0, 0.38);
+  }
+  .classMenu li a {
+    text-decoration: none;
+  }
+  .classWrap {
+    padding-top: 40px;
+  }
+  .classInfoListWrap {
+    width: 100%;
+    height: 120px;
+  }
+  .classInfoList {
+    float: left;
+    list-style: none;
+    width: 25%;
+    padding: 25px 0;
+    text-align: center;
+    background-image: url(../images/subPages/lf_subPages_class_classInfo_line.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  .classInfoList:first-child {
+    background-image: none;
+  }
+  .classInfoList img {
+    width: 25px;
+    height: 25px;
+    padding-bottom: 8px;
+  }
+  .classBanner {
+    display: block;
+    width: 400px;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+  }
+  .classBannerImg {
+    width: 27%;
+    position: absolute;
+    right: 0;
+    top: 30px;
+  }
+  .BannerText {
+    display: inline-block;
+  }
+  .classAdvantages {
+    padding: 40px 100px;
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+  .classAdvantagesList {
+    list-style: none;
+    border-radius: 10px;
+    height: 70px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .classAdvantagesList ul {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .classAdvantagesList ul li {
+    list-style: none;
+    float: left;
+  }
+  .classOffer {
+    padding: 30px 40px;
+  }
+  .classOffer .classOfferListWrap {
+    padding: 20px 0;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .classOffer .classOfferListWrap .classOfferList {
+    list-style: none;
+    width: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  }
+  .classOfferList div {
+    float: left;
+  }
+  .classOfferList img {
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+  }
+  .classOfferListText {
+    line-height: 1.5rem;
+    width: calc(80vw - 115px);
+  }
+  .offerHashtagWrap {
+    padding-top: 40px;
+  }
+  .offerHashtagWrap div {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.12);
+    margin: 10px 5px 0 0;
+  }
+  .recommendWrap {
+    padding: 40px 100px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .recommendTitle {
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+  }
+  .recommendContents {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 1px solid #fb6c6c;
+  }
+  .anotherPageWrap {
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  .premiumWrap {
+    width: 100%;
+    padding: 40px 100px 0 100px;
+    box-sizing: border-box;
+  }
+  .premiumBox {
+    border: 1px solid #5771ee;
+    box-sizing: border-box;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .class04BannerImg {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+  .class03BlueLine {
+    width: 2px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .class03BannerImg01 {
+    width: 100%;
+  }
+  .class03Interview {
+    padding: 45px 0 50px 0;
+    text-align: center;
+  }
+  .class03InterviewTitle {
+    display: block;
+    width: 70%;
+    padding-bottom: 35px;
+    margin: 0 auto;
+  }
+  .class03InterviewText {
+    font-family: "NanumSquare", sans-serif !important;
+    font-weight: 300;
+    font-size: 0.88rem; /* 14px */
+    line-height: 1.5rem; /* 24px */
+    letter-spacing: 0.01rem; /* 0.1px */
+    transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
+  }
+
+  /* 강의 교재 안내 */
+  .bookWrap {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 0 120px;
+    box-sizing: border-box;
+  }
+  .bookWrap img {
+    width: 50%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    float: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  /* 오시는길 */
+  .contactMap {
+    padding: 10px 0 30px 0;
+    height: 330px;
+  }
+  .contactText {
+    width: 100%;
+    padding: 0 130px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .emailWrap {
+    width: fit-content;
+    height: 24px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .emailWrap div {
+    float: left;
+  }
+  .emailIcon {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+  }
+  .emailIcon img {
+    width: 24px;
+    height: 24px;
+  }
+  .emailText {
+    height: 24px;
+  }
+  .contactImgWrap {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    padding-top: 0;
+    box-sizing: border-box;
+  }
+  .contactImg {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .contactImg img {
+    width: 100%;
+  }
+  .contactImg h6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    text-align: center;
+  }
+
+  /* 강의후기 */
+  .reviewWrap {
+    padding: 40px;
+  }
+  .reviewBox {
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .reviewBox img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .reviewText {
+    width: 100%;
+    height: 40px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+  .reviewBox button {
+    margin-top: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    float: right;
+  }
+
+  /* 그밖의서비스 */
+  .anothercontentsWrap {
+    padding: 0 20px;
+  }
+  .anotherTitle {
+    text-align: center;
+    margin-bottom: 65px;
+    color: #555;
+    position: relative;
+  }
+  .anotherPoint {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .anotherCardWrap {
+    padding: 30px 20px;
+    box-sizing: border-box;
+  }
+  .anotherGrayCard {
+    width: 100%;
+    height: auto;
+    background: #f5f5f5;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+  }
+  .mainSecondTitle01 {
+    border-left: 5px solid #3d4fa6;
+    padding-left: 10px;
+    margin-left: 20px;
+    line-height: 1.5rem;
+  }
+  .anotherCardTitle {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 30px;
+    font-family: "yg-jalnan";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem; /* 16px */
+  }
+}

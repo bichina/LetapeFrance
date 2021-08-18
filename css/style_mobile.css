@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+.classOfferList img {
+  width: 24px;
+  height: 24px;
+  padding-right: 10px;
+}
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   /* 모바일 가로 CSS */
 
@@ -469,6 +475,7 @@
     font-size: 1rem; /* 16px */
   }
 }
+
 @media screen and (min-width: 375px) and (max-width: 479px) {
   /* 모바일 세로 CSS */
 
@@ -1099,13 +1106,16 @@
   }
   .classBanner {
     display: block;
-    width: 280px;
+    width: 250px;
     padding: 35px 0;
     margin: 0 auto;
+    position: relative;
   }
   .classBannerImg {
-    width: 20%;
-    float: right;
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 26px;
   }
   .BannerText {
     display: inline-block;
