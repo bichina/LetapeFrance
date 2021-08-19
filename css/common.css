@@ -277,15 +277,17 @@ footer .footerSnsWrap a {
     float: left;
   }
   .sectionBoxLeft {
-    width: 750px;
+    /* width: 750px; */
+    width: 100%;
   }
   .sectionBoxRight {
-    width: calc(100vw - 750px);
+    display: none;
+    /* width: calc(100vw - 750px);
     height: 100vh;
     background-color: aquamarine;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 0; */
   }
   .header {
     height: 100px;
