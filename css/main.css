@@ -1,25 +1,9 @@
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   /* 아이패드 프로 CSS */
-  section {
-    width: 1024px;
-  }
-  section .sectionBox {
-    float: left;
-  }
-  .sectionBoxLeft {
-    width: 750px;
-  }
-  .sectionBoxRight {
-    width: calc(100vw - 750px);
-    height: 100vh;
-    background-color: aquamarine;
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
+  
 
   .header {
-    background-color: rgba(246, 246, 246, 0.9);
+    background-color: rgba(246, 246, 246, 1);
   }
   .mainTopLogo {
     display: block;
