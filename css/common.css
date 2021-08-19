@@ -199,6 +199,8 @@ html {
 .mobileMenuClose {
   display: block;
   margin: 0 auto;
+  width: 40px;
+  height: 40px;
 }
 .headerBlank {
   width: 100%;
@@ -272,22 +274,6 @@ footer .footerSnsWrap a {
   }
   section {
     width: 100%;
-  }
-  section .sectionBox {
-    float: left;
-  }
-  .sectionBoxLeft {
-    /* width: 750px; */
-    width: 100%;
-  }
-  .sectionBoxRight {
-    display: none;
-    /* width: calc(100vw - 750px);
-    height: 100vh;
-    background-color: aquamarine;
-    position: fixed;
-    top: 0;
-    right: 0; */
   }
   .header {
     height: 100px;
@@ -397,7 +383,7 @@ footer .footerSnsWrap a {
     box-sizing: border-box;
   }
   .anotherPageBtn {
-    padding: 15px 25px;
+    padding: 20px 25px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {

@@ -3,7 +3,7 @@
   
 
   .header {
-    background-color: rgba(246, 246, 246, 1);
+    background-color: rgba(246, 246, 246, .7);
   }
   .mainTopLogo {
     display: block;
@@ -13,17 +13,17 @@
   }
   .mainTopBanner {
     width: 100%;
-    height: 1000px;
+    height: 1160px;
     background-image: url(../images/main/lf_main_Khaina_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center bottom -180px;
     position: relative;
   }
   .mainTopText {
     width: 100%;
     padding: 0 40px;
-    padding-top: 150px;
+    padding-top: 130px;
     box-sizing: border-box;
   }
   .mainTopTitle {
@@ -38,12 +38,12 @@
     text-align: center;
   }
   .mainBlueBox p {
-    padding-top: 34px;
+    padding-top: 30px;
   }
 
   .mainSecondBanner {
     width: 100%;
-    height: 590px;
+    height: 610px;
     position: relative;
   }
   .secondImg {
@@ -72,8 +72,9 @@
     box-sizing: border-box;
   }
   .secondBlueBox {
-    width: 100%;
+    width: 800px;
     height: 120px;
+    margin: 0 auto;
   }
   .secondBlueBox li {
     list-style: none;
@@ -119,31 +120,37 @@
 
   .classZoom {
     width: 100%;
-    height: 140px;
+    height: 300px;
     background-color: #e9f0f7;
   }
   .classZoomContents {
-    width: 80%;
-    height: 140px;
+    width: 700px;
+    height: 300px;
     margin: 0 auto;
     background-image: url(../images/main/lf_main_zoom_illust.svg);
     background-repeat: no-repeat;
-    background-position: right 45px top 27px;
-    padding: 30px 45px;
+    background-position: right 45px top 45px;
+    padding: 80px 45px;
     box-sizing: border-box;
+    background-size: 200px;
+  }
+  .classZoomContents p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
   }
   .classZoomContents img {
-    width: 80px;
-    padding-top: 5px;
+    width: 150px;
+    padding-top: 10px;
   }
   .mainBook {
-    padding: 40px 20px 0 20px;
+    padding: 60px 20px 0 20px;
   }
   .mainBookImg {
     display: block;
     width: 80%;
     margin: 0 auto;
   }
+  /* 학생후기 */
   .mainReviewWrap {
     padding: 20px;
     box-sizing: border-box;
@@ -155,9 +162,13 @@
   }
   .mainStudent {
     display: block;
-    width: 130px;
-    height: 130px;
-    padding: 10px 0 20px 0;
+    width: 170px;
+    height: 170px;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  .mainStudentText {
+    width: 800px;
     margin: 0 auto;
   }
   .mainTeacher {
@@ -196,26 +207,29 @@
   .mainAnotherService {
     /* 그밖의 서비스 */
     width: 100%;
-    height: 210px;
-    margin: 60px 0;
+    height: 300px;
+    margin: 80px 0;
     background-color: #546bd7;
   }
   .mainAnotherContentsWrap {
-    width: 70%;
-    height: 210px;
+    width: 800px;
+    height: 300px;
     background-image: url(../images/main/lf_main_another_img.png);
-    background-size: 70%;
-    background-position: right center;
+    background-size: 600px;
+    background-position: right 45px top 10px;
     background-repeat: no-repeat;
-    padding: 35px;
+    padding: 80px 45px;
     box-sizing: border-box;
     margin: 0 auto;
   }
   .mainAnotherContentsWrap p {
     transform: skew(-0.01deg);
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-bottom: 10px;
   }
   .anotherServiceBtn {
-    padding: 8px 15px;
+    padding: 15px 25px;
     border-radius: 100px;
     text-decoration: none;
     border: 1px solid #fff;
@@ -226,10 +240,11 @@
   }
   .anotherHashtagWrap div {
     display: inline-block;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     background: rgba(133, 154, 255, 0.7);
     margin-right: 10px;
+    font-size: 1rem;
   }
   .mainContactWrap {
     width: 100%;
