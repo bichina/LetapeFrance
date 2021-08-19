@@ -268,7 +268,7 @@ footer .footerSnsWrap a {
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   html,
   body {
-    font-size: 20px;
+    font-size: 22px;
   }
   section {
     width: 100%;
@@ -322,7 +322,7 @@ footer .footerSnsWrap a {
   }
   footer {
     width: 100%;
-    height: 500px;
+    height: 520px;
     overflow: hidden;
     background-color: #333;
     padding: 40px 50px 120px 50px;
@@ -340,10 +340,10 @@ footer .footerSnsWrap a {
     padding: 0 5px;
   }
   footer address {
-    width: 350px;
+    width: 370px;
   }
   footer p {
-    width: 350px;
+    width: 370px;
   }
   .footerContents {
     width: fit-content;
@@ -356,7 +356,7 @@ footer .footerSnsWrap a {
   .footerLine {
     width: 1px;
     height: 150px;
-    background-color: #fff;
+    background-color: rgba(255,255,255,.5);
     margin: 0 50px;
   }
   /*  */
@@ -391,8 +391,11 @@ footer .footerSnsWrap a {
     width: 100%;
     height: 70px;
     border-radius: 10px;
-    padding-top: 25px;
+    padding-top: 22px;
     box-sizing: border-box;
+  }
+  .anotherPageBtn {
+    padding: 15px 25px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
