@@ -1354,6 +1354,7 @@
   }
   .emailText {
     height: 24px;
+    line-height: 24px;
   }
   .contactImgWrap {
     width: 100%;
