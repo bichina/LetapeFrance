@@ -366,13 +366,13 @@
     float: left;
   }
   .emailIcon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     padding-right: 10px;
   }
   .emailIcon img {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
   }
   .emailText {
     height: 24px;
@@ -445,6 +445,9 @@
     color: #555;
     position: relative;
   }
+  .anotherGrayCard img {
+    padding: 20px 0 10px 0;
+  }
   .anotherPoint {
     position: absolute;
     bottom: -15px;
@@ -482,5 +485,11 @@
     font-style: normal;
     font-weight: bold;
     font-size: 1rem; /* 16px */
+  }
+  .anotherpageBannerImg {
+    display: block;
+    width: 100%;
+    padding-bottom: 50px;
+    margin: 0 auto;
   }
 }
