@@ -14,7 +14,7 @@
     padding-left: 20px;
   }
   .subTitle {
-    padding: 20px 0 10px 0;
+    padding: 30px 0 20px 0;
     text-align: center;
   }
   .subTitleTop {
@@ -23,12 +23,14 @@
   .subTitleCircle {
     position: absolute;
     bottom: 6px;
-    padding-left: 2px;
+    padding-left: 5px;
+    width: 8px;
+    height: 8px;
   }
 
   /* 강사소개 페이지 */
   .teacherWrap {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
   }
   .teachersImg {
@@ -86,10 +88,8 @@
 
   /* 비용페이지 */
   .tuitionWrap {
-    width: 80%;
+    width: 650px;
     margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
   }
   .tuitionLogo {
     padding: 10px 0;
@@ -102,7 +102,7 @@
     margin: 30px 0;
   }
   .tuitionBoxWrap {
-    padding: 30px 0;
+    padding: 50px 0;
   }
   .tuitionBox {
     width: 100%;
@@ -163,7 +163,7 @@
   }
   .classInfoListWrap {
     width: 100%;
-    height: 120px;
+    height: 130px;
   }
   .classInfoList {
     float: left;
@@ -185,28 +185,34 @@
   }
   .classBanner {
     display: block;
-    width: 400px;
-    padding: 50px 0;
+    width: 500px;
+    padding: 70px 0;
     margin: 0 auto;
     position: relative;
   }
   .classBannerImg {
-    width: 27%;
+    width: 150px;
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 35px;
   }
   .BannerText {
     display: inline-block;
   }
   .classAdvantages {
-    padding: 40px 100px;
+    padding: 60px;
     background-color: rgba(0, 0, 0, 0.04);
+  }
+  .classAdvantages ul {
+    width: 650px;
+    display: block;
+    margin: 0 auto;
   }
   .classAdvantagesList {
     list-style: none;
     border-radius: 10px;
-    height: 70px;
+    width: 650px;
+    height: 80px;
     padding: 0 10px;
     margin-bottom: 10px;
     background-color: #fff;
@@ -223,12 +229,12 @@
     float: left;
   }
   .classOffer {
-    padding: 30px 40px;
+    padding: 60px;
   }
   .classOffer .classOfferListWrap {
     padding: 20px 0;
     box-sizing: border-box;
-    width: 80%;
+    width: 650px;
     margin: 0 auto;
   }
   .classOffer .classOfferListWrap .classOfferList {
@@ -241,13 +247,14 @@
   .classOfferList div {
     float: left;
   }
-  .classOfferList img {
+  .subPageIcon {
     width: 30px;
     height: 30px;
     padding-right: 20px;
   }
   .classOfferListText {
     line-height: 1.5rem;
+    width: 600px;
   }
   .offerHashtagWrap {
     padding-top: 40px;
@@ -260,7 +267,7 @@
     margin: 10px 5px 0 0;
   }
   .recommendWrap {
-    padding: 40px 100px;
+    padding: 60px;
     box-sizing: border-box;
     position: relative;
   }
@@ -271,9 +278,11 @@
     left: 50%;
     transform: translate(-50%, 0%);
     z-index: 1;
+    padding: 0 20px;
   }
   .recommendContents {
-    width: 100%;
+    width: 650px;
+    margin: auto;
     text-align: center;
     padding: 60px 0;
     border-radius: 10px;
@@ -286,7 +295,7 @@
   }
   .premiumWrap {
     width: 100%;
-    padding: 40px 100px 0 100px;
+    padding: 50px 0;
     box-sizing: border-box;
   }
   .premiumBox {
@@ -294,6 +303,8 @@
     box-sizing: border-box;
     padding: 20px 0;
     text-align: center;
+    width: 650px;
+    margin: auto;
   }
   .class04BannerImg {
     display: block;
@@ -306,11 +317,23 @@
     height: 70px;
     margin: 0 auto;
   }
+  .class03BannerImgWrap {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+  }
   .class03BannerImg01 {
     width: 100%;
   }
+  .class03BannerImg01Box {
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   .class03Interview {
-    padding: 45px 0 50px 0;
+    padding: 45px 0 70px 0;
     text-align: center;
   }
   .class03InterviewTitle {
@@ -327,7 +350,11 @@
     letter-spacing: 0.01rem; /* 0.1px */
     transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
   }
-
+  .class05BannerImg02 {
+    width: 700px;
+    display: block;
+    margin: auto;
+  }
   /* 강의 교재 안내 */
   .bookWrap {
     display: inline-block;
@@ -350,10 +377,9 @@
     height: 450px;
   }
   .contactText {
-    width: 100%;
-    padding: 0 130px;
-    box-sizing: border-box;
+    width: 600px;
     text-align: center;
+    margin: auto;
   }
   .emailWrap {
     width: fit-content;
@@ -365,25 +391,25 @@
     float: left;
   }
   .emailIcon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     padding-right: 10px;
   }
   .emailIcon img {
-    width: 24px;
-    height: 24px;
+    width: 100%;
+    height: 100%;
   }
   .emailText {
     height: 24px;
   }
   .contactImgWrap {
-    width: 600px;
+    width: 650px;
     height: auto;
     margin: 0 auto;
   }
   .contactImg {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .contactImg img {
     width: 100%;
@@ -451,18 +477,21 @@
   .anotherCardWrap {
     padding: 30px;
     box-sizing: border-box;
-    width: 500px;
+    width: fit-content;
     margin: 0 auto;
     display: block;
   }
   .anotherGrayCard {
-    width: 100%;
+    width: 600px;
     height: auto;
     background: #f5f5f5;
-    border-radius: 15px;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 40px;
     box-sizing: border-box;
     margin-bottom: 35px;
+  }
+  .anotherGrayCard img {
+    padding: 30px;
   }
   .mainSecondTitle01 {
     border-left: 5px solid #3d4fa6;
@@ -472,12 +501,18 @@
   }
   .anotherCardTitle {
     width: 100%;
-    padding: 5px 0;
+    padding: 7px 0;
     text-align: center;
     border-radius: 30px;
     font-family: "yg-jalnan";
     font-style: normal;
     font-weight: bold;
     font-size: 1rem; /* 16px */
+  }
+  .anotherpageBannerImg {
+    display: block;
+    width: 600px;
+    padding-bottom: 50px;
+    margin: 0 auto;
   }
 }

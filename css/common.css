@@ -327,6 +327,10 @@ footer .footerSnsWrap a {
   footer .footerSnsWrap a {
     padding: 0 5px;
   }
+  footer .footerSnsWrap a img {
+    width: 50px;
+    height: 50px;
+  }
   footer address {
     width: 370px;
   }
@@ -344,7 +348,7 @@ footer .footerSnsWrap a {
   .footerLine {
     width: 1px;
     height: 150px;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255, 0.5);
     margin: 0 50px;
   }
   /*  */

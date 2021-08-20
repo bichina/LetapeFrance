@@ -41,10 +41,10 @@
     <section>
         <div class="headerBlank"></div>
         <ul class="bxslider">
-            <li><img src="../images/subPages/lf_subPages_another_main_img01.jpg" alt="유학이미지"></li>
-            <li><img src="../images/subPages/lf_subPages_another_main_img02.jpg" alt="통역이미지"></li>
-            <li><img src="../images/subPages/lf_subPages_another_main_img03.jpg" alt="번역이미지"></li>
-            <li><img src="../images/subPages/lf_subPages_another_main_img04.jpg" alt="현지정착이미지"></li>
+            <li class="bxsliderImg01"><img src="../images/subPages/lf_subPages_another_main_img01.jpg" alt="유학이미지"></li>
+            <li class="bxsliderImg02"><img src="../images/subPages/lf_subPages_another_main_img02.jpg" alt="통역이미지"></li>
+            <li class="bxsliderImg03"><img src="../images/subPages/lf_subPages_another_main_img03.jpg" alt="번역이미지"></li>
+            <li class="bxsliderImg04"><img src="../images/subPages/lf_subPages_another_main_img04.jpg" alt="현지정착이미지"></li>
         </ul>
         <div class="blueLine" style="margin-bottom: 20px;"></div>
         
@@ -63,7 +63,7 @@
                 <div class="anotherCardWrap">
                     <div class="anotherGrayCard" style="text-align: center;">
                         <div class="anotherCardTitle subPinkBg surface_white">STEP 1</div>
-                        <img src="../images/subPages/lf_subPages_another_card_img01.svg" alt="컨설팅절차 아이콘" style="padding:20px 0 10px 0">
+                        <img src="../images/subPages/lf_subPages_another_card_img01.svg" alt="컨설팅절차 아이콘">
                         <p class="nanumsquareSubtitle1Regular">
                             희망 전공과 희망 학교를 정하여<br>
                             레탑프랑스에 문의합니다.
@@ -72,7 +72,7 @@
 
                     <div class="anotherGrayCard" style="text-align: center;">
                         <div class="anotherCardTitle subPinkBg surface_white">STEP 2</div>
-                        <img src="../images/subPages/lf_subPages_another_card_img02.svg" alt="컨설팅절차 아이콘" style="padding:20px 0 10px 0">
+                        <img src="../images/subPages/lf_subPages_another_card_img02.svg" alt="컨설팅절차 아이콘">
                         <p class="nanumsquareSubtitle1Regular">
                             레탑프랑스는 신청자의 문의에 알맞은<br>
                             정보를 수집합니다.
@@ -81,7 +81,7 @@
 
                     <div class="anotherGrayCard" style="text-align: center;">
                         <div class="anotherCardTitle subPinkBg surface_white">STEP 3</div>
-                        <img src="../images/subPages/lf_subPages_another_card_img03.svg" alt="컨설팅절차 아이콘" style="padding:20px 0 10px 0">
+                        <img src="../images/subPages/lf_subPages_another_card_img03.svg" alt="컨설팅절차 아이콘">
                         <p class="nanumsquareSubtitle1Regular">
                             수집된 내용을 바탕으로 레탑프랑스와<br>
                             상담을 진행합니다.
@@ -89,7 +89,7 @@
                     </div>
                 </div><!--절차 카드-->
             </div>
-            <img src="../images/subPages/lf_subPages_another_banner_img.jpg" alt="배너이미지" style="width: 100%; padding-bottom: 50px;">
+            <img src="../images/subPages/lf_subPages_another_banner_img.jpg" alt="배너이미지" class="anotherpageBannerImg" >
             
             <div class="nanumsquareSubtitle1Regular classInfoText2 primaryMain">
                 <div class="pointBg"></div>
@@ -162,6 +162,44 @@
         box-shadow: none;
         border :0;
         height: auto;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1366px) {
+        ul { 
+        width: 100%;
+        height: 600px;
+        }
+        .bxslider li {
+        list-style: none;
+        width: 100%;
+        height: 600px;
+        }
+        .bxslider li img {
+            display: none;
+        }
+        .bxsliderImg01 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg02 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg03 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg04 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img04.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
     }
 </style>
 <script>
