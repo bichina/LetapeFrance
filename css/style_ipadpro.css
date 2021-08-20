@@ -58,7 +58,7 @@
   .pointBg {
     position: absolute;
     width: 100%;
-    height: 10px;
+    height: 15px;
     background-color: #d4dcff;
     bottom: 0;
     z-index: -999;
@@ -246,6 +246,7 @@
   }
   .classOfferList div {
     float: left;
+    height: 30px;
   }
   .subPageIcon {
     width: 30px;
@@ -365,7 +366,7 @@
   }
   .bookWrap img {
     width: 50%;
-    padding: 10px 5px;
+    padding: 30px 20px;
     box-sizing: border-box;
     float: left;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));

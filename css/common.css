@@ -415,6 +415,9 @@ footer .footerSnsWrap a {
     padding-top: 17px;
     box-sizing: border-box;
   }
+  footer .footerSnsWrap a img {
+    width: 60px;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   /* 모바일 가로 CSS */
