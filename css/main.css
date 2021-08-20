@@ -217,7 +217,7 @@
     background-size: 600px;
     background-position: right 45px top 10px;
     background-repeat: no-repeat;
-    padding: 80px 45px;
+    padding: 70px 45px;
     box-sizing: border-box;
     margin: 0 auto;
   }
@@ -707,18 +707,19 @@
 
   .classZoom {
     width: 100%;
-    height: 140px;
+    height: 180px;
     background-color: #e9f0f7;
   }
   .classZoomContents {
-    width: 80%;
-    height: 140px;
+    width: 400px;
+    height: 180px;
     margin: 0 auto;
     background-image: url(../images/main/lf_main_zoom_illust.svg);
     background-repeat: no-repeat;
-    background-position: right 45px top 27px;
-    padding: 30px 45px;
+    background-position: right 45px top 40px;
+    padding: 55px 45px;
     box-sizing: border-box;
+    background-size: 100px;
   }
   .classZoomContents img {
     width: 80px;
@@ -728,7 +729,9 @@
     padding: 40px 20px 0 20px;
   }
   .mainBookImg {
-    width: 100%;
+    display: block;
+    width: 450px;
+    margin: auto;
   }
   .mainReviewWrap {
     padding: 20px;

@@ -139,6 +139,11 @@ body {
   text-decoration: none;
   border: 1px solid #3d4fa6;
 }
+.anotherPageBtn:focus{
+  border: 0;
+  background-color: #FB6C6C;
+  color: #fff;
+}
 
 /* header */
 .header {
@@ -421,6 +426,9 @@ footer .footerSnsWrap a {
   .sectionBoxRight {
     display: none;
   }
+  footer .footerSnsWrap a img {
+    width: 60px;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 479px) {
   /* 모바일 세로 CSS */
@@ -431,6 +439,9 @@ footer .footerSnsWrap a {
   }
   .sectionBoxRight {
     display: none;
+  }
+  footer .footerSnsWrap a img {
+    width: 20%;
   }
 }
 @media screen and (max-width: 374px) {
