@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* Design System */
 html,
 body {
@@ -94,7 +102,16 @@ body {
   letter-spacing: 0.03rem; /* 0.4px */
   transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
 }
-
+.anotherServiceSlider_textWrap_title { /* 유학 페이지 포인트용 */
+  font-family: "yg-jalnan";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
+    format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-size: 5rem;
+  line-height: 5.19rem;
+  letter-spacing: -0.01rem;
+}
 /* Color */
 .primaryMainBg {
   background-color: #3d4fa6;
@@ -238,11 +255,16 @@ footer .footerSnsWrap a {
   background-color: #fff;
   margin: 20px 0;
 }
-/*  */
+/* 레이아웃 공통 */
 .contentsWrap {
   width: 100%;
   padding: 0 20px;
   box-sizing: border-box;
+}
+.anotherServiceSlider_textWrap {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* 하단 고정 */

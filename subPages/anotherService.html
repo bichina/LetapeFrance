@@ -41,11 +41,35 @@
 
     <section>
         <div class="headerBlank"></div>
-        <ul class="bxslider">
-            <li class="bxsliderImg01"><img src="../images/subPages/lf_subPages_another_main_img01.jpg" alt="유학이미지"></li>
-            <li class="bxsliderImg02"><img src="../images/subPages/lf_subPages_another_main_img02.jpg" alt="통역이미지"></li>
-            <li class="bxsliderImg03"><img src="../images/subPages/lf_subPages_another_main_img03.jpg" alt="번역이미지"></li>
-            <li class="bxsliderImg04"><img src="../images/subPages/lf_subPages_another_main_img04.jpg" alt="현지정착이미지"></li>
+        <ul class="bxslider surface_white">
+            <li class="bxsliderImg01">
+                <div class="anotherServiceSlider_textWrap">
+                    <p class="nanumsquareH5Regular" style="padding-bottom: 1rem;">레탑프랑스는 당신의 꿈을 기다리고 있습니다</p>
+                    <p class="anotherServiceSlider_textWrap_title">유학 컨설팅</p>
+                </div>
+                <img src="../images/subPages/lf_subPages_another_main_img01_small.jpg" alt="유학컨설팅">
+            </li>
+            <li class="bxsliderImg02">
+                <div class="anotherServiceSlider_textWrap">
+                    <p class="nanumsquareH5Regular" style="padding-bottom: 1rem;">레탑프랑스 그 밖의 제공 서비스</p>
+                    <p class="anotherServiceSlider_textWrap_title">통역</p>
+                </div>
+                <img src="../images/subPages/lf_subPages_another_main_img02_small.jpg" alt="통역">
+            </li>
+            <li class="bxsliderImg03">
+                <div class="anotherServiceSlider_textWrap">
+                    <p class="nanumsquareH5Regular" style="padding-bottom: 1rem;">레탑프랑스 그 밖의 제공 서비스</p>
+                    <p class="anotherServiceSlider_textWrap_title">번역</p>
+                </div>
+                <img src="../images/subPages/lf_subPages_another_main_img03_small.jpg" alt="번역">
+            </li>
+            <li class="bxsliderImg04">
+                <div class="anotherServiceSlider_textWrap">
+                    <p class="nanumsquareH5Regular" style="padding-bottom: 1rem;">레탑프랑스 그 밖의 제공 서비스</p>
+                    <p class="anotherServiceSlider_textWrap_title">현지 정착</p>
+                </div>
+                <img src="../images/subPages/lf_subPages_another_main_img04_small.jpg" alt="현지 정착">
+            </li>
         </ul>
         <div class="blueLine" style="margin-bottom: 20px;"></div>
         
@@ -155,6 +179,7 @@
         list-style: none;
         width: 100%;
         height: auto;
+        display: table;
     }
     .bx-controls {
         display: none;
@@ -164,15 +189,58 @@
         border :0;
         height: auto;
     }
-    @media screen and (min-width: 768px) and (max-width: 1366px) {
+    @media screen and (max-width: 767px) {
+        .anotherServiceSlider_textWrap {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
         ul { 
         width: 100%;
-        height: 600px;
+        height: 650px;
         }
         .bxslider li {
         list-style: none;
         width: 100%;
-        height: 600px;
+        height: 650px;
+        }
+        .bxslider li img {
+            display: none;
+        }
+        .bxsliderImg01 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg02 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img02.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg03 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img03.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .bxsliderImg04 {
+            background-image: url(../images/subPages/lf_subPages_another_main_img04.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1366px) {
+        ul { 
+        width: 100%;
+        height: 900px;
+        }
+        .bxslider li {
+        list-style: none;
+        width: 100%;
+        height: 900px;
         }
         .bxslider li img {
             display: none;
