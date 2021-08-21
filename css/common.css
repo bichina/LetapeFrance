@@ -216,6 +216,7 @@ html {
 /* footer */
 footer {
   width: 100%;
+  color: #fff;
   background-color: #333;
   padding: 40px 50px 120px 50px;
   box-sizing: border-box;

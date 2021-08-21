@@ -42,12 +42,12 @@
 
   .mainSecondBanner {
     width: 100%;
-    height: 610px;
+    height: 810px;
     position: relative;
   }
   .secondImg {
     width: 100%;
-    height: 550px;
+    height: 750px;
     background-image: url(../images/main/lf_main_seconBanner_img.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,10 +57,11 @@
   .secondImg img {
     display: block;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 110px;
+    width: 250px;
   }
   .secondImgTitle {
-    padding: 25px 0;
+    padding: 35px 0;
   }
   .secondBlueWrap {
     position: absolute;
@@ -120,8 +121,8 @@
   }
   .classImgSlider {
     width: 100%;
-    height: 305px;
-    margin-bottom: 40px;
+    height: 405px;
+    margin-bottom: 60px;
   }
 
   .classZoom {
@@ -176,6 +177,7 @@
   .mainStudentText {
     width: 800px;
     margin: 0 auto;
+    padding: 30px 0 40px 0;
   }
   /* 강사소개 */
   .mainTeacher {
@@ -187,9 +189,10 @@
     height: 555px;
   }
   .mainTeacherProfileImg {
-    width: 280px;
-    height: 408px;
+    width: 405px;
+    height: 580px;
     padding-top: 25px;
+    box-sizing: border-box;
     margin: auto;
   }
   .mainTeacherLine {
@@ -228,12 +231,13 @@
     width: 800px;
     height: 300px;
     background-image: url(../images/main/lf_main_another_img.png);
-    background-size: 600px;
-    background-position: right 45px top 10px;
+    background-size: 550px;
+    background-position: right -40px top 20px;
     background-repeat: no-repeat;
     padding: 60px 45px;
     box-sizing: border-box;
     margin: 0 auto;
+    text-align: center;
   }
   .mainAnotherContentsWrap p {
     transform: skew(-0.01deg);
@@ -262,22 +266,22 @@
   }
   .mainContactWrap {
     width: 100%;
-    height: 305px;
+    height: 395px;
   }
   .mainContactWrap .swiper-container {
-    height: 305px;
+    height: 405px;
   }
 
   /*이미지슬라이더*/
 
   .swiper-container {
     width: 100%;
-    height: 305px;
+    height: 405px;
   }
 
   .swiper-slide {
-    width: 450px;
-    height: 265px;
+    width: 605px;
+    height: 355px;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -304,12 +308,12 @@
     object-fit: cover;
   }
   .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background: #000;
   }
   .swiper-pagination-bullet-active {
-    width: 40px;
+    width: 45px;
     transition: width 0.5s;
     border-radius: 15px;
     background: #fb6c6c;
@@ -488,21 +492,23 @@
   .mainStudentText {
     width: 600px;
     margin: 0 auto;
+    padding: 11px 0 24px 0;
   }
   /* 강사소개 */
   .mainTeacher {
     width: 100%;
-    height: 650px;
+    height: auto;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
   }
   .mainTeacherProfileImg {
-    width: 230px;
-    height: 315px;
+    width: 250px;
+    height: 367px;
     padding-top: 25px;
     margin: auto;
+    box-sizing: border-box;
   }
   .mainTeacherLine {
     width: 15px;
@@ -537,15 +543,16 @@
     background-color: #546bd7;
   }
   .mainAnotherContentsWrap {
-    width: 65%;
+    width: 500px;
     height: 200px;
     background-image: url(../images/main/lf_main_another_img.png);
-    background-size: contain;
+    background-size: 300px;
     background-position: right center;
     background-repeat: no-repeat;
     padding: 35px;
     box-sizing: border-box;
     margin: 0 auto;
+    text-align: center;
   }
   .anotherServiceBtn {
     padding: 8px 15px;
@@ -568,9 +575,6 @@
     width: 100%;
     height: 305px;
   }
-  /* .mainContactWrap .swiper-container {
-    height: 265px;
-  } */
 
   /*이미지슬라이더*/
 
@@ -775,6 +779,7 @@
     width: 450px;
     margin: auto;
   }
+  /* 학생후기 */
   .mainReviewWrap {
     padding: 20px;
     box-sizing: border-box;
@@ -790,6 +795,9 @@
     height: 130px;
     padding: 10px 0 20px 0;
     margin: 0 auto;
+  }
+  .mainStudentText {
+    padding: 11px 0 24px 0;
   }
   /* 강사소개 */
   .mainTeacher {
@@ -1064,6 +1072,7 @@
   .mainBookImg {
     width: 100%;
   }
+  /* 학생리뷰 */
   .mainReviewWrap {
     padding: 20px;
     box-sizing: border-box;
@@ -1079,6 +1088,9 @@
     height: 130px;
     padding: 10px 0 20px 0;
     margin: 0 auto;
+  }
+  .mainStudentText {
+    padding: 11px 0 24px 0;
   }
   /* 강사소개 */
   .mainTeacher {
@@ -1351,6 +1363,7 @@
   .mainBookImg {
     width: 100%;
   }
+  /* 학생리뷰 */
   .mainReviewWrap {
     padding: 20px;
     box-sizing: border-box;
@@ -1366,6 +1379,9 @@
     height: 130px;
     padding: 10px 0 20px 0;
     margin: 0 auto;
+  }
+  .mainStudentText {
+    padding: 11px 0 24px 0;
   }
   /* 강사소개 */
   .mainTeacher {
