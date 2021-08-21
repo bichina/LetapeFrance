@@ -12,11 +12,11 @@
   }
   .mainTopBanner {
     width: 100%;
-    height: 1160px;
+    height: 1180px;
     background-image: url(../images/main/lf_main_Khaina_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom -180px;
+    background-position: center bottom -150px;
     position: relative;
   }
   .mainTopText {
@@ -107,6 +107,13 @@
     margin-left: 20px;
     line-height: 1.5rem;
   }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 10px;
+    padding-left: 5px;
+    width: 8px;
+    height: 8px;
+  }
   .mainSubText {
     text-align: center;
     padding: 24px 0;
@@ -170,13 +177,20 @@
     width: 800px;
     margin: 0 auto;
   }
+  /* 강사소개 */
   .mainTeacher {
     width: 100%;
-    height: 650px;
+    height: auto;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
+  }
+  .mainTeacherProfileImg {
+    width: 280px;
+    height: 408px;
+    padding-top: 25px;
+    margin: auto;
   }
   .mainTeacherLine {
     width: 15px;
@@ -217,7 +231,7 @@
     background-size: 600px;
     background-position: right 45px top 10px;
     background-repeat: no-repeat;
-    padding: 70px 45px;
+    padding: 60px 45px;
     box-sizing: border-box;
     margin: 0 auto;
   }
@@ -232,9 +246,10 @@
     border-radius: 100px;
     text-decoration: none;
     border: 1px solid #fff;
+    margin-left: 60px;
   }
   .anotherHashtagWrap {
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
   }
   .anotherHashtagWrap div {
@@ -289,12 +304,12 @@
     object-fit: cover;
   }
   .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     background: #000;
   }
   .swiper-pagination-bullet-active {
-    width: 35px;
+    width: 40px;
     transition: width 0.5s;
     border-radius: 15px;
     background: #fb6c6c;
@@ -411,6 +426,13 @@
     margin-left: 20px;
     line-height: 1.5rem;
   }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 7px;
+    padding-left: 5px;
+    width: 8px;
+    height: 8px;
+  }
   .mainSubText {
     text-align: center;
     padding: 24px 0;
@@ -467,13 +489,20 @@
     width: 600px;
     margin: 0 auto;
   }
+  /* 강사소개 */
   .mainTeacher {
     width: 100%;
-    height: auto;
+    height: 650px;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
+  }
+  .mainTeacherProfileImg {
+    width: 230px;
+    height: 315px;
+    padding-top: 25px;
+    margin: auto;
   }
   .mainTeacherLine {
     width: 15px;
@@ -701,6 +730,13 @@
     margin-left: 20px;
     line-height: 1.5rem;
   }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 6px;
+    padding-left: 5px;
+    width: 7px;
+    height: 7px;
+  }
   .mainSubText {
     text-align: center;
     padding: 24px 0;
@@ -755,13 +791,20 @@
     padding: 10px 0 20px 0;
     margin: 0 auto;
   }
+  /* 강사소개 */
   .mainTeacher {
     width: 100%;
-    height: 600px;
+    height: 650px;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
+  }
+  .mainTeacherProfileImg {
+    width: 230px;
+    height: 315px;
+    padding-top: 25px;
+    margin: auto;
   }
   .mainTeacherLine {
     width: 15px;
@@ -984,6 +1027,13 @@
     margin-left: 20px;
     line-height: 1.5rem;
   }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 6px;
+    padding-left: 2px;
+    width: 5px;
+    height: 5px;
+  }
   .mainSubText {
     text-align: center;
     padding: 24px 0;
@@ -1030,6 +1080,7 @@
     padding: 10px 0 20px 0;
     margin: 0 auto;
   }
+  /* 강사소개 */
   .mainTeacher {
     width: 100%;
     height: 600px;
@@ -1037,6 +1088,12 @@
   .mainTeacherBox {
     width: 100%;
     height: 555px;
+  }
+  .mainTeacherProfileImg {
+    width: 230px;
+    height: 315px;
+    padding-top: 25px;
+    margin: auto;
   }
   .mainTeacherLine {
     width: 15px;
@@ -1256,13 +1313,20 @@
     margin-left: 20px;
     line-height: 1.5rem;
   }
+  .subTitleCircle {
+    position: absolute;
+    bottom: 5px;
+    padding-left: 2px;
+    width: 5px;
+    height: 5px;
+  }
   .mainSubText {
     text-align: center;
     padding: 24px 0;
   }
   .classImgSlider {
     width: 100%;
-    height: 200px;
+    height: 170px;
     margin-bottom: 40px;
   }
 
@@ -1303,13 +1367,20 @@
     padding: 10px 0 20px 0;
     margin: 0 auto;
   }
+  /* 강사소개 */
   .mainTeacher {
     width: 100%;
-    height: 570px;
+    height: 550px;
   }
   .mainTeacherBox {
     width: 100%;
     height: 555px;
+  }
+  .mainTeacherProfileImg {
+    width: 200px;
+    height: 275px;
+    padding-top: 25px;
+    margin: auto;
   }
   .mainTeacherLine {
     width: 15px;
@@ -1336,15 +1407,15 @@
     border: none;
     margin-bottom: 0;
   }
+  /* 그밖의 서비스 */
   .mainAnotherService {
-    /* 그밖의 서비스 */
     width: 100%;
     height: 170px;
     background-image: url(../images/main/lf_main_another_img.png);
     background-size: contain;
     background-position: right center;
     background-repeat: no-repeat;
-    margin: 50px 0;
+    margin: 30px 0;
     padding: 35px 25px;
     box-sizing: border-box;
     background-color: #546bd7;
@@ -1368,22 +1439,22 @@
   }
   .mainContactWrap {
     width: 100%;
-    height: 200px;
+    height: 170px;
   }
   .mainContactWrap .swiper-container {
-    height: 200px;
+    height: 170px;
   }
 
   /*이미지슬라이더*/
 
   .swiper-container {
     width: 100%;
-    height: 200px;
+    height: 170px;
   }
 
   .swiper-slide {
-    width: 290px;
-    height: 170px;
+    width: 250px;
+    height: 145px;
     text-align: center;
     font-size: 18px;
     background: #fff;
