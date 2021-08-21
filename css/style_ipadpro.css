@@ -206,11 +206,12 @@
     border-radius: 10px;
     width: 650px;
     height: 80px;
-    padding: 0 10px;
+    padding: 0 20px;
     margin-bottom: 10px;
     background-color: #fff;
     display: flex;
     align-items: center;
+    box-sizing: border-box;
   }
   .classAdvantagesList ul {
     display: flex;
@@ -239,7 +240,6 @@
   }
   .classOfferList div {
     float: left;
-    height: 30px;
   }
   .subPageIcon {
     width: 30px;
@@ -249,6 +249,9 @@
   .classOfferListText {
     line-height: 1.5rem;
     width: 600px;
+  }
+  .classOfferListText_letterSpacing {
+    letter-spacing: -0.02rem;
   }
   .offerHashtagWrap {
     padding-top: 40px;
