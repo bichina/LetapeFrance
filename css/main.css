@@ -228,16 +228,15 @@
     background-color: #546bd7;
   }
   .mainAnotherContentsWrap {
-    width: 800px;
+    width: 660px;
     height: 300px;
     background-image: url(../images/main/lf_main_another_img.png);
     background-size: 550px;
-    background-position: right -40px top 20px;
+    background-position: right top 20px;
     background-repeat: no-repeat;
     padding: 60px 45px;
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: center;
   }
   .mainAnotherContentsWrap p {
     transform: skew(-0.01deg);
@@ -250,7 +249,7 @@
     border-radius: 100px;
     text-decoration: none;
     border: 1px solid #fff;
-    margin-left: 60px;
+    margin-left: 50px;
   }
   .anotherHashtagWrap {
     padding-top: 50px;
@@ -543,7 +542,7 @@
     background-color: #546bd7;
   }
   .mainAnotherContentsWrap {
-    width: 500px;
+    width: 440px;
     height: 200px;
     background-image: url(../images/main/lf_main_another_img.png);
     background-size: 300px;
@@ -552,13 +551,13 @@
     padding: 35px;
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: center;
   }
   .anotherServiceBtn {
     padding: 8px 15px;
     border-radius: 100px;
     text-decoration: none;
     border: 1px solid #fff;
+    margin-left: 30px;
   }
   .anotherHashtagWrap {
     padding-top: 30px;
