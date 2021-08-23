@@ -351,6 +351,32 @@
     display: block;
     margin: auto;
   }
+  /* 강의 소개 - 이미지 위 텍스트 설정 */
+  .class04ImgBannerWrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .class04ImgBannerWrap .pointSentence img {
+    padding: 50px 0;
+    width: 50px;
+    height: auto;
+  }
+  .class04ImgBannerText {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+  .class04ImgBannerText p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .class04ImgBannerText p span {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
   /* 강의 교재 안내 */
   .bookWrap {
     display: inline-block;
@@ -479,9 +505,10 @@
   }
   .anotherPoint {
     position: absolute;
-    bottom: -15px;
+    bottom: -25px;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 300px;
   }
   .anotherCardWrap {
     padding: 30px;

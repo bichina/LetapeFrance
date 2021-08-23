@@ -344,7 +344,32 @@
     letter-spacing: 0.01rem; /* 0.1px */
     transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
   }
-
+  /* 강의 소개 - 이미지 위 텍스트 설정 */
+  .class04ImgBannerWrap {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .class04ImgBannerWrap .pointSentence img {
+    padding: 40px 0;
+    width: 40px;
+    height: auto;
+  }
+  .class04ImgBannerText {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+  .class04ImgBannerText p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .class04ImgBannerText p span {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
   /* 강의 교재 안내 */
   .bookWrap {
     display: inline-block;
@@ -484,6 +509,7 @@
     bottom: -15px;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 250px;
   }
   .anotherCardWrap {
     padding: 30px;
