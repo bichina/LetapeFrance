@@ -102,7 +102,8 @@ body {
   letter-spacing: 0.03rem; /* 0.4px */
   transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
 }
-.anotherServiceSlider_textWrap_title { /* 유학 페이지 포인트용 */
+.anotherServiceSlider_textWrap_title {
+  /* 유학 페이지 포인트용 */
   font-family: "yg-jalnan";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff")
     format("woff");
@@ -156,9 +157,14 @@ body {
   text-decoration: none;
   border: 1px solid #3d4fa6;
 }
-.anotherPageBtn:focus{
+.anotherPageBtn:focus {
   border: 0;
-  background-color: #FB6C6C;
+  background-color: #fb6c6c;
+  color: #fff;
+}
+.anotherPageBtn:hover {
+  border: 0;
+  background-color: #fb6c6c;
   color: #fff;
 }
 

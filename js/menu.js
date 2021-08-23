@@ -52,20 +52,20 @@ $(document).ready(function () {
   });
 });
 
-//리뷰 더보기 접기
-function shortSize() {
-  $(".close").click(function (e) {
-    $(this).parent().siblings(".reviewImg").height("130px");
-    $(this).parent(".reviewText").height("");
-    $(this).parent().next(".more").css("display", "block");
-  });
-  //  reviewText.style.height="40px";
-  // more.style.display="block";
-}
-function longSize() {
-  $(".more").click(function (e) {
-    $(this).prev().siblings(".reviewImg").height("auto");
-    $(this).prev(".reviewText").height("auto");
-    $(this).css("display", "none");
-  });
-}
+// //리뷰 더보기 접기 - 리뷰보기 화면 변경으로 인해 기능 막아둠
+// function shortSize() {
+//   $(".close").click(function (e) {
+//     $(this).parent().siblings(".reviewImg").height("130px");
+//     $(this).parent(".reviewText").height("");
+//     $(this).parent().next(".more").css("display", "block");
+//   });
+//   //  reviewText.style.height="40px";
+//   // more.style.display="block";
+// }
+// function longSize() {
+//   $(".more").click(function (e) {
+//     $(this).prev().siblings(".reviewImg").height("auto");
+//     $(this).prev(".reviewText").height("auto");
+//     $(this).css("display", "none");
+//   });
+// }
