@@ -1,4 +1,3 @@
-
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   /* 아이패드 프로 css */
 
@@ -422,29 +421,42 @@
 
   /* 강의후기 */
   .reviewWrap {
-    padding: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .reviewWrap .reviewBox {
+    float: left;
   }
   .reviewBox {
+    width: calc(50% - 20px);
     border: 1px solid rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     border-radius: 20px;
     padding: 20px;
+    margin: 0 10px;
     margin-bottom: 20px;
     overflow: hidden;
   }
   .reviewBox img {
     width: 100%;
     height: auto;
+  }
+  .reviewImg {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
     margin-bottom: 20px;
   }
   .reviewText {
     width: 100%;
     height: 50px;
-    text-overflow: ellipsis;
-    display: inline-block;
-    -webkit-line-clamp: 2; /* 라인수 */
-    -webkit-box-orient: vertical;
-    word-wrap: break-word;
+    font-size: 0.8rem;
+    /* text-overflow: ellipsis;
+    display: inline-block; */
+    /* -webkit-line-clamp: 2; 라인수 */
+    /* -webkit-box-orient: vertical;
+    word-wrap: break-word; */
     overflow: hidden;
   }
   .reviewBox button {
