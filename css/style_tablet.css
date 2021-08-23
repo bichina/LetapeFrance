@@ -417,19 +417,17 @@
   }
 
   /* 강의후기 */
-  .grid-item {
-    width: 300px;
-  }
+  
   .reviewWrap {
     padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
   }
-  /* .reviewWrap .reviewBox {
+  .reviewWrap .reviewBox {
     float: left;
-  } */
+  }
   .reviewBox {
-    /* width: calc(50% - 20px); */
+    width: calc(50% - 20px);
     border: 1px solid rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     border-radius: 20px;
@@ -444,7 +442,7 @@
   }
   .reviewImg {
     width: 100%;
-    height: auto;
+    height: 215px;
     /* height: 130px; 기능 변경으로 인해 막아둠*/
     overflow: hidden;
     margin-bottom: 20px;
