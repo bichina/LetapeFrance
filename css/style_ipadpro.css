@@ -385,6 +385,20 @@
     font-size: 1.2rem;
     font-weight: 600;
   }
+  .vectorImgTalk {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    letter-spacing: -0.02rem; /* 0.1px */
+    transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
+    text-align: left;
+    color: #161260;
+    position: absolute;
+    width: 67%;
+    right: 0;
+    top: 49%;
+    transform: translate(0%, -50%);
+  }
   /* 강의 교재 안내 */
   .bookWrap {
     display: inline-block;
