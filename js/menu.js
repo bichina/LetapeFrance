@@ -2,27 +2,29 @@
 function goBack() {
   window.history.back();
 }
-
-//메뉴보기
-$(document).ready(function () {
-  $(".mobileMenu").on("click", function () {
-    // $('.menu_bg').show();
-    $(".menuwrap").show().animate({
-      right: 0,
+//화면의 크기가 760px 이상일때 적용 할 코드
+if (matchMedia("screen and (max-width: 1366px)").matches) {
+  //메뉴보기
+  $(document).ready(function () {
+    $(".mobileMenu").on("click", function () {
+      // $('.menu_bg').show();
+      $(".menuwrap").show().animate({
+        right: 0,
+      });
+    });
+    $(".mobileMenuClose").on("click", function () {
+      // $('.menu_bg').hide();
+      $(".menuwrap").animate(
+        {
+          right: "-" + 100 + "%",
+        },
+        function () {
+          $(".menuwrap").hide();
+        }
+      );
     });
   });
-  $(".mobileMenuClose").on("click", function () {
-    // $('.menu_bg').hide();
-    $(".menuwrap").animate(
-      {
-        right: "-" + 100 + "%",
-      },
-      function () {
-        $(".menuwrap").hide();
-      }
-    );
-  });
-});
+}
 
 //이미지 슬라이더
 var swiper = new Swiper(".mySwiper", {

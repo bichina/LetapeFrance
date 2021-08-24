@@ -19,7 +19,9 @@
     width: 8px;
     height: 8px;
   }
-
+  .mainTopLogo {
+    display: none;
+  }
   /* 강사소개 페이지 */
   .teacherWrap {
     width: 600px;

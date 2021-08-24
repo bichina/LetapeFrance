@@ -19,7 +19,9 @@
     width: 8px;
     height: 8px;
   }
-
+  .mainTopLogo {
+    display: none;
+  }
   /* 강사소개 페이지 */
   .teacherWrap {
     width: 500px;
@@ -380,8 +382,8 @@
   }
   .vectorImgTalk {
     font-weight: 400;
-    font-size: 1.1rem; 
-    line-height: 1.8rem; 
+    font-size: 1.1rem;
+    line-height: 1.8rem;
     letter-spacing: -0.02rem; /* 0.1px */
     transform: skew(-0.1deg); /* 나눔스퀘어 16px이하 깨지는 현상 발생 */
     text-align: left;
@@ -464,7 +466,7 @@
   }
 
   /* 강의후기 */
-  
+
   .reviewWrap {
     padding: 20px;
     box-sizing: border-box;

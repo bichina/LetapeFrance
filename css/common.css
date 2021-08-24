@@ -301,6 +301,46 @@ footer .footerSnsWrap a {
   padding-top: 19px;
   box-sizing: border-box;
 }
+@media screen and (min-device-width: 1367px) {
+  .header {
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+    background-color: aquamarine;
+  }
+  .header .mobileBack,
+  .mobileMenu {
+    display: none;
+  }
+  .mainTopLogo {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+  }
+  .menuwrap {
+    display: none;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: none;
+  }
+  .menuLogo {
+    display: none;
+  }
+  section {
+    display: none;
+  }
+  .bottomBtn {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   html,
   body {

@@ -1,8 +1,10 @@
+@media screen and (min-width: 1367px) {
+}
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
   /* 아이패드 프로 CSS */
 
   .header {
-    background-color: rgba(246, 246, 246, .7);
+    background-color: rgba(246, 246, 246, 0.7);
   }
   .mainTopLogo {
     display: block;
@@ -323,6 +325,7 @@
     bottom: 0;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* 태블릿 CSS */
   .header {
@@ -627,6 +630,7 @@
     bottom: 0;
   }
 }
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   /* 모바일 가로 CSS */
 
@@ -933,6 +937,7 @@
     bottom: 0;
   }
 }
+
 @media screen and (min-width: 375px) and (max-width: 479px) {
   /* 모바일 세로 CSS */
 
