@@ -3,7 +3,7 @@ function goBack() {
   window.history.back();
 }
 //화면의 크기가 760px 이상일때 적용 할 코드
-if (matchMedia("screen and (max-width: 1366px)").matches) {
+//if (matchMedia("screen and (max-width: 1366px)").matches) {
   //메뉴보기
   $(document).ready(function () {
     $(".mobileMenu").on("click", function () {
@@ -24,7 +24,7 @@ if (matchMedia("screen and (max-width: 1366px)").matches) {
       );
     });
   });
-}
+//}
 
 //이미지 슬라이더
 var swiper = new Swiper(".mySwiper", {

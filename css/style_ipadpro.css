@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media screen and (min-device-width: 1024px) { /* and (max-device-width: 1366px)*/
   /* 아이패드 프로 css */
 
   /* 서브페이지 공통 */
@@ -449,7 +449,7 @@
     height: 24px;
   }
   .contactImgWrap {
-    width: 650px;
+    width: 600px;
     height: auto;
     margin: 0 auto;
   }

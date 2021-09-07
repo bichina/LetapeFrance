@@ -174,7 +174,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1000;
   height: 70px;
   overflow: hidden;
   background-color: #fff;
@@ -205,19 +205,19 @@ html {
   display: none;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -100%;
-  z-index: 10;
+  z-index: 9999;
   background-image: url(../images/common/lf_common_panel_bg.jpg);
   background-size: 100% 100%;
 }
 .menuLogo {
   width: 175px;
-  padding: 80px 40px;
+  padding: 50px 40px;
 }
 .category_list li {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   text-align: center;
   list-style: none;
 }
@@ -284,7 +284,7 @@ footer .footerSnsWrap a {
   position: fixed;
   bottom: 0;
   box-sizing: border-box;
-  z-index: 3;
+  z-index: 999;
 }
 .bottomBtnBox {
   width: 50%;
@@ -303,118 +303,8 @@ footer .footerSnsWrap a {
   padding-top: 19px;
   box-sizing: border-box;
 }
-@media screen and (min-device-width: 1367px) {
-  body,
-  html {
-  font-size: 16px;
-}
-  .header {
-    width: 100%;
-    min-width: 1000px;
-    height: 100px;
-    background-color: #fff;
-  }
-  .header .mobileBack,
-  .mobileMenu, .mobileMenuClose {
-    display: none;
-  }
-  .mainTopLogo {
-    width: 90px;
-    height: auto;
-    display: block;
-    margin: auto;
-    padding-top: 15px;
-  }
-  .menuwrap {
-    display: block;
-    width: 100%;
-    min-width: 1000px;
-    height: 40px;
-    position: fixed;
-    top: 100px;
-    left: 0;
-    background-image: none;
-    background-color: #fff;
-    border-top:1px solid #f5f5f5 ;
-    border-bottom:1px solid #f5f5f5 ;
-  }
-  .category_list {
-    width: 1000px;
-    height: 40px;
-    margin: auto;
-  }
-  .category_list li {
-    float: left;
-    font-size: 16px;
-    width: 200px;
-    height: 40px;
-    margin: 0;
-    line-height: 40px;
-  }
-  .category_list li:first-child {
-    display: none;
-  }
-  .link_sub_item {
-    display: inline-block;
-    width: 200px;
-    height: 40px;
-  }
-  .link_sub_item:hover{
-    background-color: #3d4fa6;
-    color: #fff;
-  }
-  .menuLogo {
-    display: none;
-  }
-  .bottomBtn {
-    display: none;
-  }
-  footer {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-    background-color: #333;
-    padding: 40px 0;
-    box-sizing: border-box;
-  }
-  footer .footerLogo {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-  }
-  footer .footerSnsWrap {
-    text-align: center;
-    padding: 30px 0;
-  }
-  footer .footerSnsWrap a {
-    padding: 0 5px;
-  }
-  footer .footerSnsWrap a img {
-    width: 50px;
-    height: 50px;
-  }
-  footer address {
-    width: 270px;
-  }
-  footer p {
-    width: 270px;
-  }
-  .footerContents {
-    width: fit-content;
-    display: block;
-    margin: 0 auto;
-  }
-  footer .footerDiv {
-    float: left;
-  }
-  .footerLine {
-    width: 1px;
-    height: 150px;
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 0 50px;
-  }
-}
-@media screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+@media screen and (min-device-width: 1024px) /*and (max-device-width: 1366px)*/ {
   html,
   body {
     font-size: 22px;
@@ -448,7 +338,8 @@ footer .footerSnsWrap a {
   }
   .menuLogo {
     width: 200px;
-    padding: 150px 100px;
+    padding: 100px;
+    /* padding: 150px 100px; */
   }
   .category_list li {
     margin-bottom: 50px;
@@ -466,6 +357,7 @@ footer .footerSnsWrap a {
   footer .footerLogo {
     display: block;
     margin: 0 auto;
+    width: 230px;
   }
   footer .footerSnsWrap {
     text-align: center;
@@ -557,6 +449,11 @@ footer .footerSnsWrap a {
     padding-top: 17px;
     box-sizing: border-box;
   }
+  footer .footerLogo {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+  }
   footer .footerSnsWrap a img {
     width: 60px;
   }
@@ -571,6 +468,11 @@ footer .footerSnsWrap a {
   .sectionBoxRight {
     display: none;
   }
+  footer .footerLogo {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+  }
   footer .footerSnsWrap a img {
     width: 60px;
   }
@@ -584,6 +486,11 @@ footer .footerSnsWrap a {
   }
   .sectionBoxRight {
     display: none;
+  }
+  footer .footerLogo {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
   }
   footer .footerSnsWrap a img {
     width: 20%;
@@ -635,10 +542,10 @@ footer .footerSnsWrap a {
     display: none;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: -100%;
-    z-index: 10;
+    z-index: 9999;
     /* backdrop-filter: blur(200px); */
     /* background-color: rgba(255, 255, 255, 0.7); */
     background-image: url(../images/common/lf_common_panel_bg.jpg);
@@ -649,7 +556,9 @@ footer .footerSnsWrap a {
     padding: 40px;
   }
   .category_list li {
-    margin-bottom: 30px;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-bottom: 25px;
     text-align: center;
     list-style: none;
   }
